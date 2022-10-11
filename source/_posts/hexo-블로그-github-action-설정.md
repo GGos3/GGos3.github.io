@@ -64,7 +64,7 @@ jobs:
 
 ## 과정 정리
 
-![Untitled](source/images/Github_action2.png)
+![Untitled](/source/images/Github_action2.png)
 
 이벤트가 발생하면 `github action`이 `hexo generator` 를 해주고
 
