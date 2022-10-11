@@ -56,7 +56,7 @@ jobs:
 
 프로젝트의 코드 저장소에서 아래 사진을 따라 설정 한다.
 
-![Untitled](/source/images/github_action1.png)
+![Untitled](/images/github_action1.png)
 
 이제 `hexo new` 로 글 작성 후 push 하면 자동으로 페이지에 추가 되어 있다.
 
@@ -64,7 +64,7 @@ jobs:
 
 ## 과정 정리
 
-![Untitled](/source/images/Github_action2.png)
+![Untitled](/images/Github_action2.png)
 
 이벤트가 발생하면 `github action`이 `hexo generator` 를 해주고
 
