@@ -92,7 +92,7 @@ navbar:
     path: /categories/
     key: categories
   - name: Tags
-    enable: false
+    enable: true
     path: /tags/
     key: tags
   - name: Friends
