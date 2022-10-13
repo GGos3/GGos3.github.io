@@ -45,14 +45,14 @@ comments:
 
   gitalk:
     # https://github.com/gitalk/gitalk#usage查看官方教程
-    enable: false
-    clientID:
-    clientSecret:
-    repo:
-    owner:
-    admin:
+    enable: true
+    clientID: ecd6bf5b4d0f89e7dd49
+    clientSecret: 071486a21a327eabb148bf4494b8b2c9d434d42a
+    repo: gitalk
+    owner: ggos3
+    admin: ggos3
     id: location.pathname
-    distractionFreeMode: false
+    distractionFreeMode: true
 
   valine:
     # https://valine.js.org/quickstart.html#%E8%8E%B7%E5%8F%96APP-ID-%E5%92%8C-APP-Key
