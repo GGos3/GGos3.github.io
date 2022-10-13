@@ -3,6 +3,7 @@ title: hexo 블로그 만들기
 date: 2022-10-07 09:00:03
 tags: hexo blog
 categories: "hexo"
+comments: true
 ---
 
 # Hexo 설치
