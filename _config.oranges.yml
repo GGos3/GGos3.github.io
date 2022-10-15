@@ -1,47 +1,19 @@
-# 相关配置说明
-# favicon: 网站图标
-# avatar: 主题用户头像与昵称
-# rss: rss订阅
-# gtag: Google 分析
-# comments: 文章评论系统
-# gitalk
-# disqus
-# navbar: 主题页面导航栏
-# catalog: 文章目录
-# prevnext: 文章末尾的上一页与下一页
-# friends: 友链
-# footer: 页脚信息
-# search: 文章搜索
-# colorSwitch: 深/浅配色切换
-# postShare: 文章分享
-# codeBlock: 代码块配置
-
-# enable: 是否开启相应功能，可选true || false
-
-# 网站图标
 favicon:
   enable: true
   icon: /profile/favicon.png
   touch_icon: /profile/favicon.png
 
-# 用户头像与昵称
 avatar:
   author_photo: /profile/avatar.png
   author_nickname: GGos3
   path: /
 
-# Google 分析
-# https://analytics.google.com
-# 注册Google分析账号，在管理/创建媒体资源/选择网站/填写相关信息后得到跟踪Id，一般格式为UA-xxxxxxx-x
-# 如之前已有注册账号，在管理/跟踪信息/跟踪代码/找到跟踪ID，一般格式为UA-xxxxxxx-x
 gtag:
   enable: false
   gtagkey: UA-xxxxxxx-x
 
-# 文章评论系统
 comments:
   enable: true
-  # 目前仅支持gitalk, valine, disqus评论，选择喜欢的一种开启即可
 
   gitalk:
     # https://github.com/gitalk/gitalk#usage查看官方教程
