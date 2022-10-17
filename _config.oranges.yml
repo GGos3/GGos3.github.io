@@ -25,7 +25,7 @@ navbar:
     path: /archives/
     key: archives
   - name: Categories
-    enable: true
+    enable: false
     path: /categories/
     key: categories
   - name: Tags
