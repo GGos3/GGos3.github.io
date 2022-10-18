@@ -195,5 +195,8 @@ cdns:
       enable: false
       url: https://cdn.jsdelivr.net/npm/@waline/client@2.5.1/dist/legacy.min.js
 
+# Google Analytics Traking ID
+google_analytics: [G-V1NQGK9KYL]
+
 # 主题色
 themeColor: "#c5c1ec"
