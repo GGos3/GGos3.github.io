@@ -73,9 +73,6 @@ footer:
       path: https://github.com/zchengsite/hexo-theme-oranges
     - name: Theme by Oranges | Powered by Hexo
       path: https://github.com/zchengsite/hexo-theme-oranges
-
-  # 浏览量统计
-  # http://busuanzi.ibruce.info/
   views:
     enable: false
     provider: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
