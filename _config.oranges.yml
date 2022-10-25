@@ -61,7 +61,6 @@ friends:
     site: https://hexo.io/
     meta:
 
-# 页脚信息
 footer:
   social:
     - name: github
