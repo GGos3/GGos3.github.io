@@ -41,11 +41,11 @@ navbar:
     path: /about/
     key: about
 
-# 文章目录
+
 catalog:
   enable: true
 
-# 文章末尾的上一页与下一页
+
 prevnext:
   enable: true
 
