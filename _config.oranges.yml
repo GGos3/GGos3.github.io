@@ -41,10 +41,8 @@ navbar:
     path: /about/
     key: about
 
-
 catalog:
   enable: true
-
 
 prevnext:
   enable: true
@@ -93,7 +91,6 @@ search:
   enable: true
   placeholder:
 
-# 深/浅配色切换
 colorSwitch:
   enable: true
 
@@ -149,6 +146,5 @@ cdns:
       enable: false
       url: https://cdn.jsdelivr.net/npm/@waline/client@2.5.1/dist/legacy.min.js
 
-# Google Analytics Traking ID
 google_analytics: [G-V1NQGK9KYL]
 themeColor: "#c5c1ec"
