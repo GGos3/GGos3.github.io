@@ -93,8 +93,6 @@ search:
 
 colorSwitch:
   enable: true
-
-# 文章分享
 postShare:
   enable: true
 
