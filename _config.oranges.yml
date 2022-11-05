@@ -51,7 +51,6 @@ prevnext:
 friends:
   # nickname: 昵称
   # site: 地址
-  # meta: 描述
   - nickname: Zcheng
     site: https://zcheng.site/
     meta:
