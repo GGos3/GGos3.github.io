@@ -47,7 +47,6 @@ catalog:
 prevnext:
   enable: true
 
-# 友链详细信息：支持多个友链
 friends:
   # nickname: 昵称
   # site: 地址
