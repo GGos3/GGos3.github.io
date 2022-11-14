@@ -19,19 +19,18 @@ jobs:
         with:
           node-version: 16
 
-      - name: Cache NPM dependencies
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-npm-cache
-          restore-keys: |
-            ${{ runner.OS }}-npm-cache
+      # - name: Cache NPM dependencies
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: node_modules
+      #     key: ${{ runner.OS }}-npm-cache
+      #     restore-keys: |
+      #       ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
 
       - name: Install Theme Dependencies
         run: git submodule update --init --recursive
-
-      - name: Install Dependencies
-        run: npm install
 
       - name: Build
         run: npm run build
