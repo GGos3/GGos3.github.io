@@ -1,9 +1,14 @@
 ---
-title: hexo 블로그 github action 설정
+layout: post
+title: "[Hexo] 블로그 github action 설정"
 date: 2022-10-07 18:10:46
-tags: hexo blog
-categories: "[hexo]"
+tags:
+categories: hexo
+noindex: true
+image: /assets/img/[Hexo]_블로그_github_action_설정/cover.png
 ---
+# [Hexo] 블로그 github action 설정
+저번시간에 만든 Hexo 블로그를 Github Action을 이용해 배포해보자
 
 ## github action이란?
 
@@ -56,7 +61,7 @@ jobs:
 
 프로젝트의 코드 저장소에서 아래 사진을 따라 설정 한다.
 
-![Untitled](/images/github_action1.png)
+![Untitled](/assets/img/[Hexo]_블로그_github_action_설정/github_action1.png)
 
 이제 `hexo new` 로 글 작성 후 push 하면 자동으로 페이지에 추가 되어 있다.
 
@@ -64,7 +69,7 @@ jobs:
 
 ## 과정 정리
 
-![Untitled](/images/Github_action2.png)
+![Untitled](/assets/img/[Hexo]_블로그_github_action_설정/Github_action2.png)
 
 이벤트가 발생하면 `github action`이 `hexo generator` 를 해주고
 
