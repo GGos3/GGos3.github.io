@@ -1,0 +1,2357 @@
+<!DOCTYPE html>
+<html lang="ko"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v9.1.6 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+
+  <meta name="robots" content="noindex">
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>CHANGELOG | GGos3</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="CHANGELOG" />
+<meta name="author" content="GGos3" />
+<meta property="og:locale" content="ko_KR, en_US" />
+<meta name="description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
+<meta property="og:description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
+<meta property="og:site_name" content="GGos3" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CHANGELOG" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"GGos3"},"dateModified":"2022-12-24T01:15:14+09:00","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"CHANGELOG","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/ggos3-bg.png"},"name":"GGos3"},"url":"/CHANGELOG/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+
+
+  <meta name="theme-color" content="rgb(25,55,71)">
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="GGos3">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="GGos3">
+
+<meta name="generator" content="Hydejack v9.1.6" />
+
+
+<link rel="alternate" href="/CHANGELOG/" hreflang="ko-kr, en-us">
+
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="GGos3" />
+
+
+<link rel="shortcut icon"    href="/assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+
+
+
+
+
+<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script"),e=(n.src=e,t&&a(n,"load",t,{once:!0}),c.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+  w._search = {
+    DATA_URL: '/assets/sitedata.json?no-cache',
+    STORAGE_KEY: 'mini-search/',
+    INDEX_KEY: 'index--2022-12-26T20:26:55+09:00',
+  };
+  w._clapButton = true;
+}(window);</script>
+
+
+<script async src="/assets/bower_components/MathJax/es5/tex-mml-chtml.js" id="_MathJax"></script>
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.1.6.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.5);--accent-color-highlight: rgba(79, 177, 186, 0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(25,55,71)}
+</style>
+
+
+<!--<![endif]-->
+
+
+
+
+</head>
+
+<body class="no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-plain"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+    <li><a href="/">home</a></li>
+    
+      <li>
+        
+          <span>/</span>
+          <span>CHANGELOG</span>
+        
+      </li>
+    
+  
+</ul></nav>
+  <article class="page mb6" role="article">
+  <header>
+    <h1 class="page-title">CHANGELOG</h1>
+    
+
+
+
+  <div class="hr pb0"></div>
+
+
+  </header>
+
+  
+<ul class="large-only" id="markdown-toc">
+  <li><a href="#v916" id="markdown-toc-v916">v9.1.6</a></li>
+  <li><a href="#v915" id="markdown-toc-v915">v9.1.5</a></li>
+  <li><a href="#v914" id="markdown-toc-v914">v9.1.4</a></li>
+  <li><a href="#v913" id="markdown-toc-v913">v9.1.3</a>    <ul>
+      <li><a href="#added" id="markdown-toc-added">Added</a></li>
+      <li><a href="#fixes" id="markdown-toc-fixes">Fixes</a></li>
+      <li><a href="#design" id="markdown-toc-design">Design</a></li>
+    </ul>
+  </li>
+  <li><a href="#v912" id="markdown-toc-v912">v9.1.2</a></li>
+  <li><a href="#v911" id="markdown-toc-v911">v9.1.1</a></li>
+  <li><a href="#v910" id="markdown-toc-v910">v9.1.0</a>    <ul>
+      <li><a href="#added-1" id="markdown-toc-added-1">Added</a></li>
+      <li><a href="#changed" id="markdown-toc-changed">Changed</a></li>
+      <li><a href="#fixes-1" id="markdown-toc-fixes-1">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v905" id="markdown-toc-v905">v9.0.5</a></li>
+  <li><a href="#v904" id="markdown-toc-v904">v9.0.4</a></li>
+  <li><a href="#v903" id="markdown-toc-v903">v9.0.3</a></li>
+  <li><a href="#v902" id="markdown-toc-v902">v9.0.2</a></li>
+  <li><a href="#v901" id="markdown-toc-v901">v9.0.1</a></li>
+  <li><a href="#v905-1" id="markdown-toc-v905-1">v9.0.5</a></li>
+  <li><a href="#v904-1" id="markdown-toc-v904-1">v9.0.4</a></li>
+  <li><a href="#v903-1" id="markdown-toc-v903-1">v9.0.3</a></li>
+  <li><a href="#v902-1" id="markdown-toc-v902-1">v9.0.2</a></li>
+  <li><a href="#v901-1" id="markdown-toc-v901-1">v9.0.1</a></li>
+  <li><a href="#v900" id="markdown-toc-v900">v9.0.0</a>    <ul>
+      <li><a href="#major" id="markdown-toc-major">Major</a></li>
+      <li><a href="#minor" id="markdown-toc-minor">Minor</a></li>
+      <li><a href="#design-1" id="markdown-toc-design-1">Design</a></li>
+      <li><a href="#fixes-2" id="markdown-toc-fixes-2">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v852" id="markdown-toc-v852">v8.5.2</a></li>
+  <li><a href="#v851" id="markdown-toc-v851">v8.5.1</a></li>
+  <li><a href="#v850" id="markdown-toc-v850">v8.5.0</a>    <ul>
+      <li><a href="#changed-1" id="markdown-toc-changed-1">Changed</a></li>
+      <li><a href="#added-2" id="markdown-toc-added-2">Added</a></li>
+      <li><a href="#fixed" id="markdown-toc-fixed">Fixed</a></li>
+    </ul>
+  </li>
+  <li><a href="#v840" id="markdown-toc-v840">v8.4.0</a></li>
+  <li><a href="#v830" id="markdown-toc-v830">v8.3.0</a>    <ul>
+      <li><a href="#added-3" id="markdown-toc-added-3">Added</a></li>
+      <li><a href="#changed-2" id="markdown-toc-changed-2">Changed</a></li>
+    </ul>
+  </li>
+  <li><a href="#v820" id="markdown-toc-v820">v8.2.0</a></li>
+  <li><a href="#v811" id="markdown-toc-v811">v8.1.1</a>    <ul>
+      <li><a href="#fixes-3" id="markdown-toc-fixes-3">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v810" id="markdown-toc-v810">v8.1.0</a>    <ul>
+      <li><a href="#breaking" id="markdown-toc-breaking">Breaking</a></li>
+      <li><a href="#changed-3" id="markdown-toc-changed-3">Changed</a></li>
+      <li><a href="#added-4" id="markdown-toc-added-4">Added</a></li>
+    </ul>
+  </li>
+  <li><a href="#v800" id="markdown-toc-v800">v8.0.0</a>    <ul>
+      <li><a href="#breaking-1" id="markdown-toc-breaking-1">Breaking</a></li>
+      <li><a href="#changed-4" id="markdown-toc-changed-4">Changed</a></li>
+      <li><a href="#added-5" id="markdown-toc-added-5">Added</a></li>
+      <li><a href="#fixes-4" id="markdown-toc-fixes-4">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v751" id="markdown-toc-v751">v7.5.1</a>    <ul>
+      <li><a href="#changed-5" id="markdown-toc-changed-5">Changed</a></li>
+    </ul>
+  </li>
+  <li><a href="#v750" id="markdown-toc-v750">v7.5.0</a>    <ul>
+      <li><a href="#added-6" id="markdown-toc-added-6">Added</a></li>
+      <li><a href="#fixed-1" id="markdown-toc-fixed-1">Fixed</a></li>
+      <li><a href="#other" id="markdown-toc-other">Other</a></li>
+    </ul>
+  </li>
+  <li><a href="#v742" id="markdown-toc-v742">v7.4.2</a>    <ul>
+      <li><a href="#fixed-2" id="markdown-toc-fixed-2">Fixed</a></li>
+    </ul>
+  </li>
+  <li><a href="#v741" id="markdown-toc-v741">v7.4.1</a>    <ul>
+      <li><a href="#fixed-3" id="markdown-toc-fixed-3">Fixed</a></li>
+    </ul>
+  </li>
+  <li><a href="#v740" id="markdown-toc-v740">v7.4.0</a>    <ul>
+      <li><a href="#added-7" id="markdown-toc-added-7">Added</a></li>
+      <li><a href="#fixed-4" id="markdown-toc-fixed-4">Fixed</a></li>
+      <li><a href="#design-2" id="markdown-toc-design-2">Design</a></li>
+      <li><a href="#other-1" id="markdown-toc-other-1">Other</a></li>
+    </ul>
+  </li>
+  <li><a href="#v730" id="markdown-toc-v730">v7.3.0</a>    <ul>
+      <li><a href="#added-8" id="markdown-toc-added-8">Added</a></li>
+      <li><a href="#fixed-5" id="markdown-toc-fixed-5">Fixed</a></li>
+    </ul>
+  </li>
+  <li><a href="#v720" id="markdown-toc-v720">v7.2.0</a>    <ul>
+      <li><a href="#added-9" id="markdown-toc-added-9">Added</a></li>
+      <li><a href="#design-3" id="markdown-toc-design-3">Design</a></li>
+      <li><a href="#fixes-5" id="markdown-toc-fixes-5">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v711" id="markdown-toc-v711">v7.1.1</a>    <ul>
+      <li><a href="#fixes-6" id="markdown-toc-fixes-6">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v710" id="markdown-toc-v710">v7.1.0</a>    <ul>
+      <li><a href="#changed-6" id="markdown-toc-changed-6">Changed</a></li>
+      <li><a href="#fixes-7" id="markdown-toc-fixes-7">Fixes</a></li>
+      <li><a href="#content" id="markdown-toc-content">Content</a></li>
+    </ul>
+  </li>
+  <li><a href="#v701" id="markdown-toc-v701">v7.0.1</a>    <ul>
+      <li><a href="#fixes-8" id="markdown-toc-fixes-8">Fixes</a></li>
+      <li><a href="#content-1" id="markdown-toc-content-1">Content</a></li>
+      <li><a href="#removed" id="markdown-toc-removed">Removed</a></li>
+    </ul>
+  </li>
+  <li><a href="#v700" id="markdown-toc-v700">v7.0.0</a>    <ul>
+      <li><a href="#license-change" id="markdown-toc-license-change">License Change</a></li>
+      <li><a href="#breaking-2" id="markdown-toc-breaking-2">Breaking</a></li>
+      <li><a href="#changes" id="markdown-toc-changes">Changes</a></li>
+      <li><a href="#added-10" id="markdown-toc-added-10">Added</a></li>
+      <li><a href="#performance" id="markdown-toc-performance">Performance</a></li>
+      <li><a href="#design-4" id="markdown-toc-design-4">Design</a></li>
+      <li><a href="#fixes-9" id="markdown-toc-fixes-9">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v661" id="markdown-toc-v661">v6.6.1</a></li>
+  <li><a href="#v660" id="markdown-toc-v660">v6.6.0</a></li>
+  <li><a href="#v650" id="markdown-toc-v650">v6.5.0</a>    <ul>
+      <li><a href="#added-11" id="markdown-toc-added-11">Added</a></li>
+      <li><a href="#changed-7" id="markdown-toc-changed-7">Changed</a></li>
+      <li><a href="#design-5" id="markdown-toc-design-5">Design</a>        <ul>
+          <li><a href="#how-to-restore-the-old-styles" id="markdown-toc-how-to-restore-the-old-styles">How to restore the old styles</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#v641" id="markdown-toc-v641">v6.4.1</a></li>
+  <li><a href="#v640" id="markdown-toc-v640">v6.4.0</a>    <ul>
+      <li><a href="#minor-1" id="markdown-toc-minor-1">Minor</a></li>
+      <li><a href="#design-6" id="markdown-toc-design-6">Design</a></li>
+      <li><a href="#fixes-10" id="markdown-toc-fixes-10">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v630" id="markdown-toc-v630">v6.3.0</a>    <ul>
+      <li><a href="#minor-2" id="markdown-toc-minor-2">Minor</a></li>
+      <li><a href="#design-7" id="markdown-toc-design-7">Design</a></li>
+      <li><a href="#fixes-11" id="markdown-toc-fixes-11">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v620" id="markdown-toc-v620">v6.2.0</a></li>
+  <li><a href="#v611" id="markdown-toc-v611">v6.1.1</a></li>
+  <li><a href="#v610" id="markdown-toc-v610">v6.1.0</a></li>
+  <li><a href="#v600-javascripten" id="markdown-toc-v600-javascripten">v6.0.0 (JavaScripten)</a>    <ul>
+      <li><a href="#major-1" id="markdown-toc-major-1">Major</a></li>
+      <li><a href="#minor-3" id="markdown-toc-minor-3">Minor</a></li>
+      <li><a href="#fixes-12" id="markdown-toc-fixes-12">Fixes</a></li>
+    </ul>
+  </li>
+  <li><a href="#v530" id="markdown-toc-v530">v5.3.0</a></li>
+  <li><a href="#v520" id="markdown-toc-v520">v5.2.0</a></li>
+  <li><a href="#v510" id="markdown-toc-v510">v5.1.0</a></li>
+  <li><a href="#v500-the-fast-one" id="markdown-toc-v500-the-fast-one">v5.0.0 (The Fast One)</a>    <ul>
+      <li><a href="#major-2" id="markdown-toc-major-2">Major</a></li>
+      <li><a href="#minor-4" id="markdown-toc-minor-4">Minor</a></li>
+      <li><a href="#trivia" id="markdown-toc-trivia">Trivia</a></li>
+    </ul>
+  </li>
+  <li><a href="#v401" id="markdown-toc-v401">v4.0.1</a></li>
+  <li><a href="#v400-social-media-impocalypse" id="markdown-toc-v400-social-media-impocalypse">v4.0.0 (Social Media Impocalypse)</a>    <ul>
+      <li><a href="#breaking-3" id="markdown-toc-breaking-3">Breaking</a></li>
+      <li><a href="#new-features" id="markdown-toc-new-features">New features</a></li>
+      <li><a href="#design-8" id="markdown-toc-design-8">Design</a></li>
+      <li><a href="#fixes-13" id="markdown-toc-fixes-13">Fixes</a></li>
+      <li><a href="#internal" id="markdown-toc-internal">Internal</a></li>
+    </ul>
+  </li>
+  <li><a href="#v300-hydejack" id="markdown-toc-v300-hydejack">v3.0.0 (Hydejack)</a>    <ul>
+      <li><a href="#features" id="markdown-toc-features">Features</a></li>
+    </ul>
+  </li>
+  <li><a href="#v200-hyde" id="markdown-toc-v200-hyde">v2.0.0 (Hyde)</a></li>
+  <li><a href="#v100-hyde" id="markdown-toc-v100-hyde">v1.0.0 (Hyde)</a></li>
+</ul>
+
+<h2 id="v916">v9.1.6</h2>
+<p class="heading post-date">Feb 07 2022</p>
+
+<ul>
+  <li>Removed unused clap button HTML tags</li>
+  <li>Fixed an issue with using <code class="language-plaintext highlighter-rouge">featured</code> projects on the <code class="language-plaintext highlighter-rouge">welcome</code> layout</li>
+  <li>Minor style adjustments</li>
+  <li>Updated dependencies</li>
+</ul>
+
+<h2 id="v915">v9.1.5</h2>
+<p class="heading post-date">Nov 30 2021</p>
+
+<ul>
+  <li>Now works with Ruby 3.0</li>
+  <li>Fixed theme color issue when using multiple theme colors</li>
+  <li>Fixed UTF-8 characters not rendering correctly in breadcrumbs</li>
+  <li>Fixed empty string warning in resume layout</li>
+  <li>Removed clap button info box</li>
+</ul>
+
+<h2 id="v914">v9.1.4</h2>
+<p class="heading post-date">Mar 30 2021</p>
+
+<ul>
+  <li>Fixed scroll position restoration in webkit.</li>
+  <li>Fixed an issue that caused clap button to use canonical url incorrectly.</li>
+</ul>
+
+<h2 id="v913">v9.1.3</h2>
+<p class="heading post-date">Mar 28 2021</p>
+
+<h3 id="added">Added</h3>
+<ul>
+  <li>Allow setting custom Google Fonts providers via <code class="language-plaintext highlighter-rouge">google_fonts_url</code> (<a href="https://github.com/hydecorp/hydejack/issues/264">#264</a>). Defaults to <code class="language-plaintext highlighter-rouge">https://fonts.googleapis.com</code>.</li>
+</ul>
+
+<h3 id="fixes">Fixes</h3>
+<ul>
+  <li>Merged <a href="https://github.com/hydecorp/hydejack/pull/266">#266</a> — Fixed a bug that caused incorrect links to be rendered.</li>
+  <li>Merged <a href="https://github.com/hydecorp/hydejack/pull/267">#267</a> — Fixed a bug that caused incorrect sub-titles when using multiple categories/tags.</li>
+  <li>Fix <a href="https://github.com/hydecorp/hydejack/issues/262">#262</a> — Fixed a bug that causes warnings when not providing a skill level / fluency level in the resume.</li>
+  <li>[PRO] Fixed a bug preventing scrolling when using sticky <abbr title="Table of Contents">ToC</abbr> with certain aspect ratios.</li>
+</ul>
+
+<h3 id="design">Design</h3>
+<ul>
+  <li>[PRO] Adjusted calculation to dark mode background color to prevent red tint of grey colors</li>
+  <li>Hide underline in tooltips</li>
+  <li>Show clap button on collection pages</li>
+  <li>Show dingbat in <code class="language-plaintext highlighter-rouge">plain</code> layout</li>
+</ul>
+
+<h2 id="v912">v9.1.2</h2>
+<p class="heading post-date">Feb 11 2021</p>
+
+<ul>
+  <li>Fix <a href="https://github.com/hydecorp/hydejack/issues/258">#258</a></li>
+  <li>Fix <a href="https://github.com/hydecorp/hydejack/issues/259">#259</a></li>
+</ul>
+
+<h2 id="v911">v9.1.1</h2>
+<p class="heading post-date">Feb 9 2021</p>
+
+<ul>
+  <li>Added tooltips to post subtitles and last-modified-at lines.</li>
+  <li>Added tooltips to abberavations (<code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code> tags), e.g. <abbr title="Instantly Invoked Asynchronous Function Expression">IIAFE</abbr>. See <a href="/blog/hyde/2012-02-07-example-content/#inline-html-elements" class="flip-title">Example Content</a> on how to use them in markdown.</li>
+  <li>Added tooltips to social media icons (inside main column only)</li>
+  <li>Fixed KaTeX font rendering</li>
+  <li>[PRO] Setting <code class="language-plaintext highlighter-rouge">clap_button: false</code> will hide the clap button preview, even in development</li>
+  <li>[PRO] A overscrolling <abbr title="Table of Contents">ToC</abbr> will scroll itself to keep the active element in view.</li>
+</ul>
+
+<h2 id="v910">v9.1.0</h2>
+<p class="heading post-date">Feb 5 2021</p>
+
+<p>Version 9.1 provides minor design changes, new features, and closes multiple issues:</p>
+
+<h3 id="added-1">Added</h3>
+
+<ul>
+  <li>
+    <p>Code blocks now can have headers:</p>
+
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: 'hello-world.js'</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello World!</span><span class="dl">'</span><span class="p">);</span>
+</code></pre></div>    </div>
+
+    <p>To add the headers, simply make the first line a comment of the form <code class="language-plaintext highlighter-rouge">file: "dir/filename.ext"</code>.</p>
+
+    <ul>
+      <li>Code blocks now have a copy-to-clipboard button</li>
+    </ul>
+  </li>
+  <li>
+    <p>Resumes can now have download buttons.</p>
+
+    <p><img src="/assets/img/blog/9.1.0-3.png" alt="Download Buttons" class="border lead" width="1776" height="258" loading="lazy" /></p>
+
+    <p>Add the following to the front matter. Note that the PDF needs to be pre-generated. 
+See <a href="/docs/basics/#downloads">the docs</a> for more.</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: "resume.md"</span>
+<span class="na">buttons</span><span class="pi">:</span>
+  <span class="na">print</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">pdf</span><span class="pi">:</span> <span class="s">/assets/Resume.pdf</span>
+  <span class="na">vcf</span><span class="pi">:</span> <span class="s">http://h2vx.com/vcf/&lt;!--url--&gt;</span>
+  <span class="na">json</span><span class="pi">:</span> <span class="s">/assets/resume.json</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Added breadcrumbs above page title:</p>
+
+    <p><img src="/assets/img/blog/9.1.0-2.png" alt="Breadcrumbs" class="border lead" width="1588" height="164" loading="lazy" /></p>
+
+    <p>Note that this requires a <a href="https://qwtel.com/posts/software/urls-are-directories/">directory-like URL pattern</a> like <code class="language-plaintext highlighter-rouge">/blog/:categories/:year-:month-:day-:title/</code> (default for Hydejack).</p>
+
+    <p>Disable with <code class="language-plaintext highlighter-rouge">hydejack.no_breadcrumbs</code>.</p>
+  </li>
+  <li>
+    <p>Added “Last modified at” to post layout:</p>
+
+    <p><img src="/assets/img/blog/9.1.0-1.png" alt="Last modified at" class="border lead" width="1254" height="218" loading="lazy" /></p>
+
+    <p>To enable this feature, the post needs to have a <code class="language-plaintext highlighter-rouge">last_modified_at</code> property with a valid date. You can either set it manually in the frontmatter (not recommended), or use the <a href="https://github.com/gjtorikian/jekyll-last-modified-at"><code class="language-plaintext highlighter-rouge">jekyll-last-modified-at</code> plugin</a> to set it for you (Not available on GitHub Pages!).</p>
+
+    <p>You can remove this element by setting <code class="language-plaintext highlighter-rouge">hide_last_modified</code> in the front matter. You can disable it for all posts by setting <code class="language-plaintext highlighter-rouge">hydejack.hide_last_modified</code> in the config file. Setting <code class="language-plaintext highlighter-rouge">hydejack.hide_dates</code> (PRO version only) will also remove it, together with all other time-related UI elements.</p>
+
+    <p>You can customize the hover text, icon, and date format in <code class="language-plaintext highlighter-rouge">_data/strings.yml</code> using the following keys: <code class="language-plaintext highlighter-rouge">last_modified_at</code> (hover text), <code class="language-plaintext highlighter-rouge">last_modified_at_icon</code> (icon name, default: <code class="language-plaintext highlighter-rouge">icon-history</code>) and <code class="language-plaintext highlighter-rouge">date_formats.last_modified_at</code> (date format, default: <code class="language-plaintext highlighter-rouge">%Y-%m-%d</code>).</p>
+  </li>
+  <li>
+    <p>Added option to “invert” / darken the font colors in the sidebar. This enables use of bright sidebar images. 
+Set <code class="language-plaintext highlighter-rouge">invert_sidebar: true</code> in the font matter to enable. Use <code class="language-plaintext highlighter-rouge">defaults</code> in the config file to enable this for all pages.</p>
+  </li>
+  <li>Added a demo of <a href="https://getclaps.app/">Clap Button</a> during development.</li>
+  <li>Added option to configure border radius</li>
+  <li>Added dingbat to <code class="language-plaintext highlighter-rouge">page</code> layout</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">plain</code> layout that comes without a dingbat</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">smaller</code> and <code class="language-plaintext highlighter-rouge">larger</code> CSS classes that set the font size to the respective values.</li>
+  <li>Added options to change the file paths to favicon and apple touch icon in the confog file. Use <code class="language-plaintext highlighter-rouge">favicon</code> and <code class="language-plaintext highlighter-rouge">apple_touch_icon</code> respectively.</li>
+</ul>
+
+<h3 id="changed">Changed</h3>
+<ul>
+  <li>Added border radius to many elements</li>
+  <li>Modernized table design</li>
+  <li>[PRO] Setting <code class="language-plaintext highlighter-rouge">hydejack.advertise: false</code> will now remove the banner from the HTML and the JavaScript console.</li>
+  <li>Changed the box shadow of cards (projects, posts) to reduce the amount of painting the browser has to do on when mouse hovering them.</li>
+  <li>The layout when using the theme without the <code class="language-plaintext highlighter-rouge">no_break_layout</code> setting is now</li>
+</ul>
+
+<h3 id="fixes-1">Fixes</h3>
+<ul>
+  <li>Allow transparent project and post images</li>
+  <li>Removing/leaving out the <code class="language-plaintext highlighter-rouge">logo</code> key in the config file will now correctly remove the logo from the sidebar</li>
+  <li>[PRO] Fixed a bug that caused blog posts to be included the the search even when set to <code class="language-plaintext highlighter-rouge">sitemap: false</code> in the front matter.</li>
+</ul>
+
+<h2 id="v905">v9.0.5</h2>
+<p class="heading post-date">Sept 8 2020</p>
+
+<ul>
+  <li>Added GitHub Pages Starter Kit to PRO version</li>
+  <li>Added chapter on how to deploy PRO on GitHub Pages</li>
+  <li>JavaScript source files now included in PRO zip again</li>
+  <li>Updated default config file</li>
+  <li>Changed default code font</li>
+  <li>Improved fallback image in dark mode</li>
+</ul>
+
+<h2 id="v904">v9.0.4</h2>
+<p class="heading post-date">July 15 2020</p>
+
+<ul>
+  <li>Fixed image fade in animation for images with <code class="language-plaintext highlighter-rouge">srcset</code></li>
+  <li>Slightly increased size of post and project cards</li>
+  <li>Added page margin to print layout</li>
+  <li>Fixed KaTeX when JavaScript is disabled</li>
+  <li>Fixed a layout bug in the <code class="language-plaintext highlighter-rouge">resume</code> layout when changing the content width in variable</li>
+  <li>Fixed table of contents sticky breakpoint</li>
+</ul>
+
+<h2 id="v903">v9.0.3</h2>
+<p class="heading post-date">July 9 2020</p>
+
+<ul>
+  <li>Updated print resume style</li>
+  <li>Updated docs for GitHub Pages</li>
+  <li>Slightly decreased size of dark mode icon</li>
+  <li>Fixed a bug that caused a GitHub Pages build to fail with an empty configuration file</li>
+  <li>Changed default icon so that it less resembles slashdot.org~~</li>
+</ul>
+
+<h2 id="v902">v9.0.2</h2>
+<p class="heading post-date">July 7 2020</p>
+
+<ul>
+  <li>Fixed a bug that prevented the search from updating when offline is enabled</li>
+  <li>Fixed a bug that caused search terms to get lost during initialization</li>
+  <li>Fixed a bug that prevented <code class="language-plaintext highlighter-rouge">site.legal</code> from getting stored for offline during service worker installation</li>
+  <li>Added support to for <code class="language-plaintext highlighter-rouge">no-cache</code> param to service worker.</li>
+</ul>
+
+<h2 id="v901">v9.0.1</h2>
+<p class="heading post-date">July 6 2020</p>
+
+<ul>
+  <li>Changing app icons has been revamped. See <a href="/docs/config/#adding-custom-favicons-and-app-icons">this section</a> in the docs.</li>
+  <li>Changed default icons</li>
+  <li>Changed default sidebar background</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">jekyll-compose</code> defaults to config file</li>
+  <li>Slightly adjusted dark mode colors</li>
+  <li>Fixed resume layout breakpoint</li>
+</ul>
+
+<h2 id="v905-1">v9.0.5</h2>
+<p class="heading post-date">Sept 8 2020</p>
+
+<ul>
+  <li>Added GitHub Pages Starter Kit to PRO version</li>
+  <li>Added chapter on how to deploy PRO on GitHub Pages</li>
+  <li>JavaScript source files now included in PRO zip again</li>
+  <li>Updated default config file</li>
+  <li>Changed default code font</li>
+  <li>Improved fallback image in dark mode</li>
+</ul>
+
+<h2 id="v904-1">v9.0.4</h2>
+<p class="heading post-date">July 15 2020</p>
+
+<ul>
+  <li>Fixed image fade in animation for images with <code class="language-plaintext highlighter-rouge">srcset</code></li>
+  <li>Slightly increased size of post and project cards</li>
+  <li>Added page margin to print layout</li>
+  <li>Fixed KaTeX when JavaScript is disabled</li>
+  <li>Fixed a layout bug in the <code class="language-plaintext highlighter-rouge">resume</code> layout when changing the content width in variable</li>
+  <li>Fixed table of contents sticky breakpoint</li>
+</ul>
+
+<h2 id="v903-1">v9.0.3</h2>
+<p class="heading post-date">July 9 2020</p>
+
+<ul>
+  <li>Updated print resume style</li>
+  <li>Updated docs for GitHub Pages</li>
+  <li>Slightly decreased size of dark mode icon</li>
+  <li>Fixed a bug that caused a GitHub Pages build to fail with an empty configuration file</li>
+  <li>Changed default icon so that it less resembles slashdot.org~~</li>
+</ul>
+
+<h2 id="v902-1">v9.0.2</h2>
+<p class="heading post-date">July 7 2020</p>
+
+<ul>
+  <li>Fixed a bug that prevented the search from updating when offline is enabled</li>
+  <li>Fixed a bug that caused search terms to get lost during initialization</li>
+  <li>Fixed a bug that prevented <code class="language-plaintext highlighter-rouge">site.legal</code> from getting stored for offline during service worker installation</li>
+  <li>Added support to for <code class="language-plaintext highlighter-rouge">no-cache</code> param to service worker.</li>
+</ul>
+
+<h2 id="v901-1">v9.0.1</h2>
+<p class="heading post-date">July 6 2020</p>
+
+<ul>
+  <li>Changing app icons has been revamped. See <a href="/docs/config/#adding-custom-favicons-and-app-icons">this section</a> in the docs.</li>
+  <li>Changed default icons</li>
+  <li>Changed default sidebar background</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">jekyll-compose</code> defaults to config file</li>
+  <li>Slightly adjusted dark mode colors</li>
+  <li>Fixed resume layout breakpoint</li>
+</ul>
+
+<h2 id="v900">v9.0.0</h2>
+<p class="heading post-date">July 3 2020</p>
+
+<h3 id="major">Major</h3>
+<ul>
+  <li>
+    <p>Added Built-In Search Functionality</p>
+
+    <p>Hydejack now has its own built-in search solution, that integrates well with the existing page style and the new navbar.</p>
+
+    <p>The solution is entirely browser-based which means it even works while offline and doesn’t depend on an 3rd party. 
+This works, because Hydejack is designed for personal sites that generally have less than 1000 pages. 
+In my testing, Jekyll build times have been a problem long before search query times.</p>
+
+    <p>The results of the search are surprisingly good, but have only been tested in English and (somewhat) German. 
+For better language support, I might build an integration with Algolia at some point, which has the best results, 
+but requires stable internet connection and an API key. 
+I’d be interested to hear about problems with search in other languages to determine if this is necessary.</p>
+  </li>
+  <li>
+    <p>Added Table of Contents that is prettier, sticky, and dynamic.</p>
+
+    <p>Adding a table of contents is part of kramdown and can be done in all versions of Hydejack. 
+However, v9 adds a dynamic version that will stick to the 3rd column on large screens and highlight the current section.</p>
+
+    <p>Note that this will reduce the amount of space freed up by the <code class="language-plaintext highlighter-rouge">no_break_layout: false</code> setting (otherwise the <abbr title="Table of Contents">ToC</abbr> would overlap with code blocks, math blocks, etc).</p>
+  </li>
+  <li>
+    <p>Added a scroll-linked navbar that disappears when scrolling down and re-appears when scrolling up.</p>
+  </li>
+  <li>
+    <p>Math support has been revamped because the old solution stopped working with Jekyll 4. Hydejack now supports both KaTeX and MathJax.</p>
+
+    <p>The MathJax implementation is more similar to the old solution. It comes with a client-side runtime (MathJax in this case)
+and works on GitHub Pages. It is the more heavy-weight of the two and doesn’t work without JavaScript enabled. 
+Due to the size of the complete MathJax package, it only works partially with offline support enabled.</p>
+
+    <p>The KaTeX implementation has been changed to pre-render the KaTeX output during site building.
+It <em>does not</em> ship a client-side runtime, which is more lightweight and works <em>without</em> JavaScript.
+In my opinion, it is the more elegant solution, but it requires a JavaScript runtime on the machine that builds the site.
+This means that this solution doesn’t work on GitHub Pages.</p>
+
+    <p>You can switch between the two implementations by changing the <code class="language-plaintext highlighter-rouge">kramdown.math_engine</code> key to either <code class="language-plaintext highlighter-rouge">katex</code> or <code class="language-plaintext highlighter-rouge">mathjax</code> in your config file.
+The KaTeX implementation also requires the <code class="language-plaintext highlighter-rouge">kramdown-math-katex</code> gem in your <code class="language-plaintext highlighter-rouge">Gemfile</code>.</p>
+  </li>
+  <li>
+    <p>Drastically improved build times through the use of <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code>. 
+Most of the previous tips on <a href="hydejack/_posts/2019-02-18-improving-site-build-speed.md">improving page build speed</a> should now be obsolete.</p>
+  </li>
+  <li>
+    <p>Added <code class="language-plaintext highlighter-rouge">grid</code> layout in PRO version that mirrors the <code class="language-plaintext highlighter-rouge">projects</code> layout, but for posts. 
+If you’ve set <code class="language-plaintext highlighter-rouge">image</code>s for your posts, it will give your blog a more modern look.</p>
+  </li>
+</ul>
+
+<h3 id="minor">Minor</h3>
+<ul>
+  <li>CSS variables are now configurable via <code class="language-plaintext highlighter-rouge">_data/variables.yml</code>. While there are other ways to change them, this has the broadest reach across HTML (<code class="language-plaintext highlighter-rouge">img[sizes]</code> attribute!), CSS and JS.</li>
+  <li>Many JS content features (such as <code class="language-plaintext highlighter-rouge">#</code> heading links) now work even when <code class="language-plaintext highlighter-rouge">hydejack.no_push_state</code> is enabled.</li>
+  <li>Linking to posts in the <code class="language-plaintext highlighter-rouge">home</code> and <code class="language-plaintext highlighter-rouge">post</code> layout now accept either paths or URLs. <a href="/docs/basics/#adding-related-posts-to-a-post">Read more</a>.</li>
+  <li>The star icons in the resume layout can now be disabled via <code class="language-plaintext highlighter-rouge">no_skill_icons</code> and <code class="language-plaintext highlighter-rouge">no_language_icons</code>.</li>
+  <li>Resume layout now supports the following keys: <code class="language-plaintext highlighter-rouge">born</code>, <code class="language-plaintext highlighter-rouge">citizenship</code>, and <code class="language-plaintext highlighter-rouge">maritalStatus</code>.</li>
+  <li>PRO only: Added <code class="language-plaintext highlighter-rouge">hide_dates</code> option to disable showing blog post dates.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">blog</code> layout now works without pagination, simply showing all posts on a single page when the <code class="language-plaintext highlighter-rouge">jekyll-pagination</code> plugin is not found.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">projects</code>, <code class="language-plaintext highlighter-rouge">resume</code>, and <code class="language-plaintext highlighter-rouge">grid</code> layout now make better use of large screens, by letting content expand to the right of the screen. Restore the previous , set <code class="language-plaintext highlighter-rouge">no_break_columns</code> in front matter.</li>
+  <li>Removed smooth scroll polyfill for Safari/Webkit as it has caused problems with sticky content.</li>
+  <li>Figure captions can now be added to code blocks, math blocks, and tables in addition to just images using the <code class="language-plaintext highlighter-rouge">.figcaption</code> CSS class.</li>
+  <li>The order of the comment section relative to the about and related posts sections can now be customized via the <code class="language-plaintext highlighter-rouge">hydejack.post_addons</code> and <code class="language-plaintext highlighter-rouge">hydejack.project_addons</code> keys. See the example <code class="language-plaintext highlighter-rouge">_config.yml</code> for more.</li>
+  <li>Clicking the image in the <code class="language-plaintext highlighter-rouge">blog</code> layout will now navigate to the blog post. In the PRO version it will do so with the classic “move image in place” animation.</li>
+  <li>Grouping projects by year can now be disabled. Use <code class="language-plaintext highlighter-rouge">no_groups: true</code> in the front matter. This also applies to the new <code class="language-plaintext highlighter-rouge">grid</code> layout and the old <code class="language-plaintext highlighter-rouge">list</code> layout.</li>
+  <li>hy-img has been removed and replaced with browser’s native <code class="language-plaintext highlighter-rouge">loading=lazy</code> attribute</li>
+  <li>Now serving separate JavaScript files for old and new browsers, allowing it to take advantage of many new language features.</li>
+  <li>JavaScript files are now chunked, so that only what is needed is loaded on demand.</li>
+  <li>hy-drawer and hy-push-state have been rewritten in TypeScript and LitHTML, fixing many bugs in the process.</li>
+  <li>Updated to Jekyll 4.1</li>
+  <li>Hydejack now has a dedicated offline page that will be shown when the client is offline and tries to open a page that hasn’t been cached. 
+The content of the page can be customized by creating <code class="language-plaintext highlighter-rouge">offline.md</code> file in the root with <code class="language-plaintext highlighter-rouge">layout: offline</code>, similar to <code class="language-plaintext highlighter-rouge">404.md</code>.</li>
+  <li>The code font can now be customized in the config file via the <code class="language-plaintext highlighter-rouge">font_code</code> key.</li>
+</ul>
+
+<h3 id="design-1">Design</h3>
+<ul>
+  <li>Many layouts (<code class="language-plaintext highlighter-rouge">projects</code>, <code class="language-plaintext highlighter-rouge">resume</code>, <code class="language-plaintext highlighter-rouge">home</code>) will now use more space on large screens (disable via <code class="language-plaintext highlighter-rouge">hydejack.no_third_column</code>)</li>
+  <li>Headings now appear “oversized” on larger screens and extend to the right end of the screen (disable via <code class="language-plaintext highlighter-rouge">hydejack.no_large_headings</code>)</li>
+  <li>The base font size is now smaller across screen sizes (can be configured in <code class="language-plaintext highlighter-rouge">_sass/_variables.scss</code>)</li>
+  <li>The content width is now larger across screen sizes (can be configured in <code class="language-plaintext highlighter-rouge">_sass/_variables.scss</code>)</li>
+  <li>The link style has been changed to make picking accent colors easier for dark mode. It’s also possible to link images now without worrying about underlines.</li>
+  <li>The amount of whitespace has been reduced. Previously it had been increased but it felt too much.</li>
+  <li>Added a <a href="/docs/writing/#adding-notes"><code class="language-plaintext highlighter-rouge">note</code> class</a> that succeeds the <code class="language-plaintext highlighter-rouge">message</code> for adding auxillary content. The <code class="language-plaintext highlighter-rouge">message</code> class still exists.</li>
+  <li>The navbar buttons made to look more like buttons</li>
+  <li>Dark mode colors have been toned down a bit</li>
+  <li>Improved dark mode text rendering on macOS</li>
+  <li>The permalink style has been changed to use “#” instead of an icon.</li>
+  <li>Definition list now have a double colon after the definition term.</li>
+  <li>Changed the style of footnote links on small screens to make them easier to click.</li>
+</ul>
+
+<h3 id="fixes-2">Fixes</h3>
+<ul>
+  <li>Horizontal scrolling on a code block, math black, or table can no longer accidentally open the drawer.</li>
+  <li>The client-side scripts are now more robust to missing HTML elements. This should ease theme customization.</li>
+  <li>Setting <code class="language-plaintext highlighter-rouge">sitemap: false</code> will now also add a <code class="language-plaintext highlighter-rouge">noindex</code> meta tag to prevent accidental search engine indexation.</li>
+  <li>Fixed back button not showing when opening in standalone mode for the first time.</li>
+  <li>The menu icon is now hidden when the drawer is disabled.</li>
+  <li>Using <code class="language-plaintext highlighter-rouge">no_drawer: true</code> is now working properly on cover pages when <code class="language-plaintext highlighter-rouge">no_push_state: false</code> is set.</li>
+  <li>Reduced the amount of pixels cached by the <code class="language-plaintext highlighter-rouge">will-change</code> optimization and fixed the corresponding warning in Firefox.</li>
+</ul>
+
+<h2 id="v852">v8.5.2</h2>
+<p class="heading post-date">August 31 2019</p>
+
+<ul>
+  <li>Fixed breaking builds due to name collision when upgrading to 8.5
+This is caused when using both <code class="language-plaintext highlighter-rouge">_plugins/jekyll-replace-imgs</code> and the new <code class="language-plaintext highlighter-rouge">jekyll-replace-img</code> ruby gem.
+I recommend deleting <code class="language-plaintext highlighter-rouge">_plugins/jekyll-replace-imgs</code> when using the <code class="language-plaintext highlighter-rouge">jekyll-replace-img</code> gem.
+Note that this is an optional plugin.</li>
+  <li>Fixed <code class="language-plaintext highlighter-rouge">nomodule</code> script loading for Safari 10.1</li>
+  <li>Fixed <a href="https://github.com/hydecorp/hydejack/issues/176">#176</a></li>
+</ul>
+
+<h2 id="v851">v8.5.1</h2>
+<p class="heading post-date">Aug 1 2019</p>
+
+<ul>
+  <li>Fixed minification bug</li>
+</ul>
+
+<h2 id="v850">v8.5.0</h2>
+<p class="heading post-date">Aug 1 2019</p>
+
+<h3 id="changed-1">Changed</h3>
+<ul>
+  <li>[PRO] The theme now matches the operating system’s dark mode.</li>
+  <li>Scrolling down on a page with an open drawer will now close the drawer</li>
+  <li>Reloading a cover page after the drawer has been closed will now open the page with the drawer closed</li>
+  <li>Removed JavaScript-based web font swapping in favor of using <code class="language-plaintext highlighter-rouge">font-display: swap</code></li>
+  <li>Darkened font color in dark mode to reduce contrast</li>
+  <li>Updated KaTeX to the latest version</li>
+  <li>Increased the durations of various animations slightly</li>
+  <li>Now using <a href="https://github.com/qwtel/jekyll-replace-img"><code class="language-plaintext highlighter-rouge">jekyll-replace-img</code></a> instead of custom code in <code class="language-plaintext highlighter-rouge">_plugins</code> folder</li>
+  <li>Added a separate, smaller JavaScript bundle for modern browsers</li>
+</ul>
+
+<h3 id="added-2">Added</h3>
+<ul>
+  <li>Added support for figure captions on code blocks</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">keybase</code> to social media icons</li>
+  <li>[PRO] There’s now a forward button when using the theme as a PWA</li>
+</ul>
+
+<h3 id="fixed">Fixed</h3>
+<ul>
+  <li>Fixed print layout when dark mode is enabled</li>
+  <li>Using <code class="language-plaintext highlighter-rouge">CSSTransformValue</code> correctly</li>
+  <li>Fixed a minor style bug for dates</li>
+  <li>Fixed a bug where light mode would flash when loading a page in dark mode</li>
+  <li>Minimal support for IE11</li>
+</ul>
+
+<h2 id="v840">v8.4.0</h2>
+<p class="heading post-date">Mar 9 2019</p>
+
+<ul>
+  <li>Added support for <code class="language-plaintext highlighter-rouge">noindex</code> property in the front matter</li>
+  <li>Fixed ordering of selected projects/post in welcome layout</li>
+  <li>Updated dependencies</li>
+</ul>
+
+<h2 id="v830">v8.3.0</h2>
+<p class="heading post-date">Feb 18 2019</p>
+
+<p>This version adds new options to increase production build speed. Read <a href="hydejack/_posts/2019-02-18-improving-site-build-speed.md">this post</a> for details.</p>
+
+<h3 id="added-3">Added</h3>
+<ul>
+  <li>Added <code class="language-plaintext highlighter-rouge">no_page_style</code> config option to increase site build speed.</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">menu</code> config option to increase site build speed.</li>
+  <li>Copying math will now add the LaTeX source to the clipboard.</li>
+</ul>
+
+<h3 id="changed-2">Changed</h3>
+<ul>
+  <li>Upgraded KaTeX to version 0.10.0.</li>
+</ul>
+
+<h2 id="v820">v8.2.0</h2>
+<p class="heading post-date">Feb 1 2019</p>
+
+<ul>
+  <li>Added support for custom <code class="language-plaintext highlighter-rouge">related_posts</code></li>
+  <li>Removed footer from print layout</li>
+  <li>Increased photo size in print resume</li>
+  <li>Improved <code class="language-plaintext highlighter-rouge">welcome</code> layout generation performance</li>
+  <li>Fixed a bug that prevented scrolling to headlines with non-ascii characters (Thanks <a href="https://github.com/ForelaxX">@ForelaxX</a>)</li>
+</ul>
+
+<h2 id="v811">v8.1.1</h2>
+<p class="heading post-date">Sep 1 2018</p>
+
+<h3 id="fixes-3">Fixes</h3>
+<ul>
+  <li>Fixed an issue that prevented the drawer from working on iOS 10.</li>
+  <li>Changing the page via push state will now also update the <code class="language-plaintext highlighter-rouge">link[rel=canonical]</code> tag.</li>
+  <li>Changing the page via push state will now also update the <code class="language-plaintext highlighter-rouge">meta[name=description]</code> tag.</li>
+  <li>Fixed an issue that prevented the JS from building on Netlify.</li>
+</ul>
+
+<h2 id="v810">v8.1.0</h2>
+<p class="heading post-date">Aug 18 2018</p>
+
+<p>This release adds Dark Mode for Hydejack PRO customers.</p>
+
+<h3 id="breaking">Breaking</h3>
+<ul>
+  <li>Removed cookie banner from free version</li>
+  <li>Removed offline support from free version</li>
+</ul>
+
+<p>In an attempt to make the PRO offering more appealing, I’m removing features that arguably should have never been included in the free version.
+As software licenses go, nobody is stopping you from using the old code, but updates will no longer be included.</p>
+
+<h3 id="changed-3">Changed</h3>
+<ul>
+  <li>The cookies banners is now showing at the bottom of the page and its background color is no longer transparent to increase visibility</li>
+  <li>Changed the default syntax theme from “GitHub” to “Atom One Light”</li>
+  <li>Adapted <code class="language-plaintext highlighter-rouge">figure</code> CSS class to accommodate different children, not just <code class="language-plaintext highlighter-rouge">img</code>s</li>
+  <li><code class="language-plaintext highlighter-rouge">video</code> tags now have a <code class="language-plaintext highlighter-rouge">max-width</code> of 100%</li>
+  <li>Increased margin before headings to <code class="language-plaintext highlighter-rouge">5rem</code>, up from 4</li>
+  <li>Increased margin of <code class="language-plaintext highlighter-rouge">hr</code> elements.</li>
+  <li>Cookies banner can now be enabled without using Google Analytics</li>
+  <li>Clicking the cookie banner “Okay” button will now fire a <code class="language-plaintext highlighter-rouge">hy--cookies-ok</code> event on <code class="language-plaintext highlighter-rouge">document</code>, so that custom analytics solutions can plug in.</li>
+  <li>All Google Analytics code has been removed from Hydejack’s core and moved to <code class="language-plaintext highlighter-rouge">_includes/body/analytics.js</code>.</li>
+  <li>All Disqus code has been removed from Hydejack’s core and moved to <code class="language-plaintext highlighter-rouge">_includes/comments.html</code> and <code class="language-plaintext highlighter-rouge">_includes/my-comments.html</code>.</li>
+  <li>Using CSS Custom Properties instead of SASS variables for certain properties to enable style customization using only CSS.</li>
+  <li>Added shadow to sidebar</li>
+  <li>Navbar is longer positioned <code class="language-plaintext highlighter-rouge">fixed</code></li>
+</ul>
+
+<h3 id="added-4">Added</h3>
+<ul>
+  <li>[PRO] Added Dark Mode</li>
+  <li><code class="language-plaintext highlighter-rouge">border</code> CSS class</li>
+</ul>
+
+<h2 id="v800">v8.0.0</h2>
+<p class="heading post-date">Jul 16 2018</p>
+
+<p>So far Hydejack has been a decent Jekyll theme, but with v8 it really starts stand out among the competition: Beautiful and unique landing pages, lazy-loading images, and experimental offline support are just the most prominent new features.</p>
+
+<h3 id="breaking-1">Breaking</h3>
+<ul>
+  <li>
+    <p>The expected format for sidebar images has changed.
+A sidebar image should now be a full-screen ~16:10 image.</p>
+
+    <p>Comment: The sidebar can now be fully extended on desktop, which generally requires a large landscape image to fill the entire window.
+To save bandwidth, you can blur the image on the left and right edges and save it as JPG.</p>
+  </li>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">about</code> and <code class="language-plaintext highlighter-rouge">welcome</code> layout no longer prepend the content with the author information.
+Instead, the author info can be shown by adding the <code class="language-plaintext highlighter-rouge">&lt;!--author--&gt;</code> marker to the top of the file. You can also place it anywhere else.</p>
+
+    <p>Comment: Showing the author description on the top of the <code class="language-plaintext highlighter-rouge">welcome</code> and <code class="language-plaintext highlighter-rouge">about</code> layouts felt like an imposition and was a left-over from when I was developing Hydejack primarily for myself.</p>
+  </li>
+  <li>
+    <p>[PRO] The <code class="language-plaintext highlighter-rouge">welcome</code> layout no longer adds recent posts and projects to the bottom of the page. Instead, they have to be explicitly set using the <code class="language-plaintext highlighter-rouge">&lt;!--posts--&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;!--projects--&gt;</code> markers. The <code class="language-plaintext highlighter-rouge">content_separator</code> front matter opton is now ignored.</p>
+
+    <p>Comment: The old behavior felt arbitrary, and <code class="language-plaintext highlighter-rouge">&lt;!--more--&gt;</code> wasn’t a good name to be replaced with recent projects ands posts.</p>
+  </li>
+  <li>
+    <p>Setting the accent color and sidebar image for an entire category/tag/author is no longer possible.
+To achieve a similar effect, use <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">Front Matter defaults</a> instead.</p>
+
+    <p>E.g. to set the accent color and image for every post in the <code class="language-plaintext highlighter-rouge">hydejack</code> folder, use:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">defaults</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span>         <span class="s">hydejack</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">accent_color</span><span class="pi">:</span> <span class="s">rgb(38,139,210)</span>
+      <span class="na">accent_image</span><span class="pi">:</span> <span class="s">/assets/img/hydejack-bg.jpg</span>
+</code></pre></div>    </div>
+
+    <p>Comment: The code to find the color for a given page was complicated and slow (potentially iterating all categories/tags to find the right one).</p>
+  </li>
+</ul>
+
+<h3 id="changed-4">Changed</h3>
+
+<ul>
+  <li>The drawer now responds to mouse inputs.</li>
+  <li>The default heading font is now less bold. To restore the old behavior, edit (create if it’s missing) <code class="language-plaintext highlighter-rouge">_sass/my-variables.scss</code> and add <code class="language-plaintext highlighter-rouge">$font-weight-heading: 700;</code>.</li>
+  <li>Hydejack now uses lazy-loading hy-img tags instead of regular <code class="language-plaintext highlighter-rouge">img</code> tags.
+To revert to using regular images, set <code class="language-plaintext highlighter-rouge">hydejack.no_img</code> in the config file to <code class="language-plaintext highlighter-rouge">true</code>.</li>
+  <li>Cookie consent is now stored as a cookie (instead of <code class="language-plaintext highlighter-rouge">LocalStorage</code>) and expires after 1 year.</li>
+  <li>Scrolling to a fragment link is now smooth.</li>
+  <li>Font loading now works differently, and will be cancelled on slow connections.</li>
+  <li>The sidebar content is now centered.</li>
+  <li>The sidebar will now show the site’s logo, which can be set in the config file under the <code class="language-plaintext highlighter-rouge">logo</code> key.</li>
+  <li>[PRO] Updated embedded Bootstrap to v4.</li>
+  <li>[PRO] Project cards now throw a shadow instead of having a border.</li>
+</ul>
+
+<h3 id="added-5">Added</h3>
+<ul>
+  <li>
+    <p>Pages can now have the <code class="language-plaintext highlighter-rouge">cover</code> key in the front matter.
+When set to <code class="language-plaintext highlighter-rouge">true</code>, the sidebar will be opened when visiting the page directly.
+E.g. <a href="https://hydejack.com/" class="no-push-state">https://hydejack.com/</a></p>
+  </li>
+  <li>
+    <p>Added a <code class="language-plaintext highlighter-rouge">_plugin</code> that automatically replaces <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tags with lazy-loading <code class="language-plaintext highlighter-rouge">&lt;hy-img&gt;</code> tags. If you don’t want images to load lazily, delete or rename the <code class="language-plaintext highlighter-rouge">_plugins</code> folder.
+Note that this plugin will never run when building the site on GitHub Pages.</p>
+
+    <p>To get the most out of this plugin, it is recommended to provide the width and height of the image, e.g.</p>
+
+    <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Some image</span><span class="p">](</span><span class="sx">assets/img/some-img.png</span><span class="p">)</span>{:width="800" height="600"}
+</code></pre></div>    </div>
+
+    <p>This will cause hy-img to render a placeholder of 800 by 600 <code class="language-plaintext highlighter-rouge">px</code>, preventing the document height from changing after the image has finished loading.</p>
+  </li>
+  <li>
+    <p>Added experimental offline support via Service Workers. Use with care!
+For details, <a href="/docs/advanced/#enabling-offline-support">read the docs</a>.</p>
+  </li>
+  <li>
+    <p>Added the <code class="language-plaintext highlighter-rouge">figure</code> CSS class, which allows images to have nicer-looking captions. E.g.</p>
+
+    <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">An image with a caption</span><span class="p">](</span><span class="sx">https://via.placeholder.com/800x50</span><span class="p">)</span>{:.lead}
+A caption to an image.
+{:.figure}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Clicking on a footnote will give its corresponding text a subtle highlight.</p>
+  </li>
+  <li>
+    <p>[PRO] Projects can now have an optional <code class="language-plaintext highlighter-rouge">end_date</code> field in the front matter.
+The <code class="language-plaintext highlighter-rouge">date</code> is treated as the start date in this case.</p>
+  </li>
+</ul>
+
+<h3 id="fixes-4">Fixes</h3>
+<ul>
+  <li>The back button now works in combination with fragment links.</li>
+</ul>
+
+<h2 id="v751">v7.5.1</h2>
+<p class="heading post-date">Apr 2 2018</p>
+
+<h3 id="changed-5">Changed</h3>
+<ul>
+  <li>Moved from browserify to webpack</li>
+  <li>Updated ruby dependencies</li>
+  <li>Updated JS dependencies</li>
+  <li>Updated hy-push-state and hy-drawer to latest versions</li>
+</ul>
+
+<h2 id="v750">v7.5.0</h2>
+<p class="heading post-date">Dec 18 2017</p>
+
+<h3 id="added-6">Added</h3>
+<ul>
+  <li>
+    <p>Added secondary <code class="language-plaintext highlighter-rouge">legal</code> nav in footer:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">legal</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Cookies Policy</span>
+    <span class="na">href</span><span class="pi">:</span>  <span class="s">/cookies-policy/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Foobar</span>
+    <span class="na">href</span><span class="pi">:</span>  <span class="s">https://foobar.com/</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>The “heading permalink” can now be configured via <code class="language-plaintext highlighter-rouge">strings.yml</code>:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_data/strings.yml`</span>
+<span class="na">permalink</span><span class="pi">:</span>      <span class="s">Permalink</span>
+<span class="na">permalink_icon</span><span class="pi">:</span> <span class="s">icon-link</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Sections on resume layout can now be rearranged, e.g.:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `resume.md`</span>
+<span class="na">left_column</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">work</span>
+  <span class="pi">-</span> <span class="s">volunteer</span>
+  <span class="pi">-</span> <span class="s">education</span>
+  <span class="pi">-</span> <span class="s">awards</span>
+  <span class="pi">-</span> <span class="s">publications</span>
+  <span class="pi">-</span> <span class="s">references</span>
+<span class="na">right_column</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">languages</span>
+  <span class="pi">-</span> <span class="s">skills</span>
+  <span class="pi">-</span> <span class="s">interests</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="fixed-1">Fixed</h3>
+<ul>
+  <li>Fixed a bug that caused <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> tags to render as regular text (<a href="https://github.com/hydecorp/hydejack/pull/52">#52</a>)</li>
+  <li>Fixed a bug that caused Disqus to load the same thread on all pages (<a href="https://github.com/hydecorp/hydejack/pull/52">#53</a>)</li>
+  <li>Fixed a bug that prevented Disqus comments to be loaded on sites that didn’t cause scroll events</li>
+  <li>Fixed a bug that caused Disqus to be loaded over HTTP instead of HTTPS.</li>
+  <li>Fixed a bug that caused an extra space in URLs (<a href="https://github.com/hydecorp/hydejack/pull/55">#55</a>).</li>
+  <li>Comments no longer show up in the print version of the page.</li>
+</ul>
+
+<h3 id="other">Other</h3>
+<ul>
+  <li>Set base font to <code class="language-plaintext highlighter-rouge">11pt</code> in print layout.</li>
+  <li>Set resume print layout to use 2 columns (A4 sheet)</li>
+</ul>
+
+<h2 id="v742">v7.4.2</h2>
+<p class="heading post-date">Dec 1 2017</p>
+
+<h3 id="fixed-2">Fixed</h3>
+<ul>
+  <li>Dramatically improved resume print layout.
+It is now much less likely that there will be page breaks within logical units.</li>
+  <li>Fixed a bug that cause the page to break when setting <code class="language-plaintext highlighter-rouge">no_drawer</code>.</li>
+  <li>Fixed a bug that cased the “Random Posts” heading to appear, even when there are no posts to show</li>
+</ul>
+
+<h2 id="v741">v7.4.1</h2>
+<p class="heading post-date">Nov 27 2017</p>
+
+<h3 id="fixed-3">Fixed</h3>
+<ul>
+  <li>Fixed storing user-related data before accepting cookies.</li>
+  <li>Fixed tab order of cookie banner, so keyboard users can access it more easily.</li>
+  <li>Accepting cookies no longer causes a page reload in some browsers.</li>
+  <li>Fixed appearance of the okay button in the free version.</li>
+  <li>Menu icon now useable while the cookies banner is active.</li>
+  <li>Loading icon is now visible while the cookies banner is active.</li>
+  <li>Removed cookies banner from print layout.</li>
+  <li>Removed inline styles from cookie banner.</li>
+</ul>
+
+<h2 id="v740">v7.4.0</h2>
+<p class="heading post-date">Nov 25 2017</p>
+
+<h3 id="added-7">Added</h3>
+<ul>
+  <li>Allow markdown in copyright string</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">theme_color</code> front-matter property to micro-manage the value of the the <code class="language-plaintext highlighter-rouge">theme-color</code> meta tag.
+When not set, will use <code class="language-plaintext highlighter-rouge">accent_color</code>.</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">theme_color</code> site setting, to set the value of <code class="language-plaintext highlighter-rouge">themeColor</code> in the app manifest.
+When not set, will use <code class="language-plaintext highlighter-rouge">accent_color</code>.</li>
+  <li>
+    <p>Added <code class="language-plaintext highlighter-rouge">cookies_banner</code> setting:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">cookies_banner</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div>    </div>
+
+    <p>Enabling this setting will show a notice at the top of the page to new visitors.
+You can change the wording of the notice in <code class="language-plaintext highlighter-rouge">_data/strings.yml</code>
+with the <code class="language-plaintext highlighter-rouge">cookies_banner.text</code> and <code class="language-plaintext highlighter-rouge">cookies_banner.okay</code> keys:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_data/strings.yml`</span>
+<span class="na">cookies_banner</span><span class="pi">:</span>
+  <span class="na">text</span><span class="pi">:</span> <span class="s">This site uses cookies.</span>
+  <span class="na">okay</span><span class="pi">:</span> <span class="s">Okay</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="fixed-4">Fixed</h3>
+<ul>
+  <li>Drawer no longer resizes/repaints in iOS Safari (iPhone) and Chrome for Android when the address bar autohides.</li>
+  <li>Fixed a bug that caused the drawer flicker/open unexpectedly when scrolling in mobile browsers.</li>
+  <li>Fixed how <code class="language-plaintext highlighter-rouge">image</code> works when using the <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code> plugin.</li>
+</ul>
+
+<h3 id="design-2">Design</h3>
+<ul>
+  <li>Changed how line breaks work in resume layout</li>
+  <li>Changed margins of horizontals lines</li>
+</ul>
+
+<h3 id="other-1">Other</h3>
+<ul>
+  <li>Updated docs</li>
+  <li>Updated posts</li>
+</ul>
+
+<h2 id="v730">v7.3.0</h2>
+<p class="heading post-date">Nov 17 2017</p>
+
+<h3 id="added-8">Added</h3>
+<ul>
+  <li>Allow markdown content on <code class="language-plaintext highlighter-rouge">projects</code> layout.</li>
+  <li>Renamed <code class="language-plaintext highlighter-rouge">big_project</code> option on projects to <code class="language-plaintext highlighter-rouge">featured</code> (<code class="language-plaintext highlighter-rouge">big_project</code> still works)</li>
+</ul>
+
+<h3 id="fixed-5">Fixed</h3>
+<ul>
+  <li>Fixed default font weights</li>
+  <li>Fixed hard-coded <code class="language-plaintext highlighter-rouge">/projects/</code> URL in project layout</li>
+  <li>Link to feed.xml is only generated when using the <code class="language-plaintext highlighter-rouge">jekyll-feed</code> plugin</li>
+</ul>
+
+<h2 id="v720">v7.2.0</h2>
+<p class="heading post-date">Nov 13 2017</p>
+
+<h3 id="added-9">Added</h3>
+<ul>
+  <li>Added <code class="language-plaintext highlighter-rouge">_sass/my-variables.scss</code> file, which you can use to selectively override SCSS variables.</li>
+  <li>Font weights can now be configured via SCSS variables:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">$font-weight</code> for normal font.</li>
+      <li><code class="language-plaintext highlighter-rouge">$font-weight-bold</code> for <code class="language-plaintext highlighter-rouge">strong</code> tags and similar.</li>
+      <li><code class="language-plaintext highlighter-rouge">$font-weight-heading</code> for headings.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="design-3">Design</h3>
+<ul>
+  <li>Message boxes will no longer span the full width, even with the break layout feature enabled.</li>
+  <li>Increased space between project card rows, so they look less like a brick wall.</li>
+</ul>
+
+<h3 id="fixes-5">Fixes</h3>
+<ul>
+  <li>Reduced the draw range of the drawer on iOS, so that a larger portion of the screen is available for zooming (a11y).</li>
+  <li>Default images are now optimized, so they are no longer flagged by Google PageSpeed Insights and similar tools.</li>
+  <li>Query parameters are no longer used for cache busting.
+Instead, the version number is no part of the file name for the CSS and JS resources.</li>
+</ul>
+
+<h2 id="v711">v7.1.1</h2>
+<p class="heading post-date">Nov 3 2017</p>
+
+<h3 id="fixes-6">Fixes</h3>
+<ul>
+  <li>Fix IE11 feature detection</li>
+</ul>
+
+<h2 id="v710">v7.1.0</h2>
+<p class="heading post-date">Nov 2 2017</p>
+
+<h3 id="changed-6">Changed</h3>
+<ul>
+  <li>Renamed <code class="language-plaintext highlighter-rouge">no_description</code> to <code class="language-plaintext highlighter-rouge">hide_description</code>.
+Since this feature isn’t yet documented outside of the change log, the old name <em>will not</em> continue to work.</li>
+  <li>When providing images to <code class="language-plaintext highlighter-rouge">image</code>, <code class="language-plaintext highlighter-rouge">image.path</code>, <code class="language-plaintext highlighter-rouge">image.src</code>, <code class="language-plaintext highlighter-rouge">image.srcset</code> and <code class="language-plaintext highlighter-rouge">accent_image </code>,
+it is no longer necessary to prepend the url with the <code class="language-plaintext highlighter-rouge">baseurl</code> of the site,
+e.g. values like <code class="language-plaintext highlighter-rouge">accent_image: /assets/img/sidebar-bg.jpg</code> are now valid.</li>
+  <li>Limited scope of <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">img</code> styles to content areas.</li>
+  <li>Upgraded KaTeX to v0.8.3</li>
+  <li>Upgraded <code class="language-plaintext highlighter-rouge">jekyll-relative-links</code> to v5.0.1</li>
+</ul>
+
+<h3 id="fixes-7">Fixes</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">font</code> and <code class="language-plaintext highlighter-rouge">font_heading</code> are now properly set when using the <code class="language-plaintext highlighter-rouge">no_inline_css</code> option <a href="https://github.com/hydecorp/hydejack/issues/47">#47</a>.</li>
+  <li>Fixed default values for <code class="language-plaintext highlighter-rouge">image</code> and <code class="language-plaintext highlighter-rouge">logo</code> that were referring to non-existing images.</li>
+  <li>Added missing JS dev dependencies.</li>
+</ul>
+
+<h3 id="content">Content</h3>
+<ul>
+  <li>Updated documentation</li>
+  <li>Updated index, download, about and README pages.</li>
+</ul>
+
+<h2 id="v701">v7.0.1</h2>
+<p class="heading post-date">Oct 27 2017</p>
+
+<h3 id="fixes-8">Fixes</h3>
+<ul>
+  <li>Removed readme files from <code class="language-plaintext highlighter-rouge">assets</code> that would show up as pages when building on GitHub Pages <a href="https://github.com/hydecorp/hydejack/issues/42">#42</a>.</li>
+  <li>Disabled push state on Firefox for iOS</li>
+  <li>Changed some default settings in <code class="language-plaintext highlighter-rouge">_config.yml</code></li>
+</ul>
+
+<h3 id="content-1">Content</h3>
+<ul>
+  <li>Updated documentation</li>
+</ul>
+
+<h3 id="removed">Removed</h3>
+<ul>
+  <li>Removed outdated example script in <code class="language-plaintext highlighter-rouge">my-scripts.html</code></li>
+</ul>
+
+<h2 id="v700">v7.0.0</h2>
+<p class="heading post-date">Oct 24 2017</p>
+
+<h3 id="license-change">License Change</h3>
+<p>The <em>free version</em> of Hydejack is now <a href="/licenses/GPL-3.0/">GPL-3.0</a> licensed, which is a more restrictive license than MIT (but still <em>Open Source</em>).
+This was necessary because the two major components that make up Hydejack,
+<a href="https://hydecorp.github.io/hy-push-state/" class="external">hy-push-state</a> and
+<a href="https://hydecorp.github.io/hy-drawer/" class="external">hy-drawer</a>,
+are now GPL licensed in turn.</p>
+
+<p>How will this affect you?</p>
+<ul>
+  <li>If you bought the <em>PRO version</em> you are not affected at all.</li>
+  <li>You can continue to use previous versions of Hydejack according to their license (MIT).</li>
+  <li>If you upgrade, keep the source code in a public repository and make sure you include the new <code class="language-plaintext highlighter-rouge">LICENSE.md</code> file.
+DO NOT publish the <em>new code</em> with an <em>old license</em>.</li>
+  <li>If you upgrade and make changes to the source code, you are required to make those changes available to the public
+under a GPL-3.0 compatible license.</li>
+</ul>
+
+<p>The full license text is available <a href="/licenses/GPL-3.0/">here</a>.
+You can read a summary on <a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">tl;drLegel</a>.</p>
+
+<p>If this change is not acceptable to you, DO NOT upgrade or consider <a href="https://app.simplegoods.co/i/AQTTVBOE">buying</a> a <a href="/licenses/PRO/">PRO license</a>.</p>
+
+<p>Note that the above does not constitute legal advice.</p>
+
+<h3 id="breaking-2">Breaking</h3>
+<p>This is a major release, but almost all options and APIs that were described in the docs continue to work.
+Some names have changed and are no longer mentioned in the docs, but they are still part of the code and continue to work.</p>
+
+<p>That being said, you should be aware of these (small) breaking changes:</p>
+
+<ul>
+  <li>
+    <p>The favicon is now located in <code class="language-plaintext highlighter-rouge">assets/icons</code>. To change the favicon of the page, edit <code class="language-plaintext highlighter-rouge">favicon.ico</code> (png) in the folder.</p>
+  </li>
+  <li>
+    <p>Changed the way tables work, so that they do the right thing more often.
+Tables are now scrollable by default, but small tables are no longer stretched to span the full width.
+Setting <code class="language-plaintext highlighter-rouge">scroll-table</code> on a larger table is sill recommended, as it will set <code class="language-plaintext highlighter-rouge">white-space: nowrap</code>.</p>
+  </li>
+  <li>
+    <p>Autogenerated ids for posts now look like <code class="language-plaintext highlighter-rouge">post-2017-01-01-my-title</code> instead of <code class="language-plaintext highlighter-rouge">post-2017/01/01/my-title</code>.</p>
+  </li>
+  <li>
+    <p>Event names described in the scripting chapter have changed from <code class="language-plaintext highlighter-rouge">y-push-state-*</code> to <code class="language-plaintext highlighter-rouge">hy-push-state-*</code>,
+except <code class="language-plaintext highlighter-rouge">y-push-state-animationend</code>, which has been removed. See the <a href="/docs/scripts/#registering-push-state-event-listeners">docs</a> for more.</p>
+  </li>
+</ul>
+
+<h3 id="changes">Changes</h3>
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">image</code> has been renamed to <code class="language-plaintext highlighter-rouge">accent_image</code>, but <code class="language-plaintext highlighter-rouge">image</code> continues to work unless you add the <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code> plugin.
+This change was necessary because <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code> uses the <code class="language-plaintext highlighter-rouge">image</code> keyword to set the thumbnail image of a page.
+While it <em>may</em> be desirable to use the same image for both the sidebar and the thumbnail,
+the new preferred way to set sidebar images is by using the <code class="language-plaintext highlighter-rouge">accent_image</code> key.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">color</code> has been renamed to <code class="language-plaintext highlighter-rouge">accent_color</code> to be consistent with the new <code class="language-plaintext highlighter-rouge">accent_image</code> key, but <code class="language-plaintext highlighter-rouge">color</code> continues to work.</p>
+  </li>
+  <li>
+    <p>Various options that do not make sense outside the context of Hydejack (like <code class="language-plaintext highlighter-rouge">no_push_state</code> or <code class="language-plaintext highlighter-rouge">no_drawer</code>)
+have been moved under a common <code class="language-plaintext highlighter-rouge">hydejack</code> key. However, the old options continue to work.</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">no_push_state</span><span class="pi">:</span> <span class="no">false</span>
+  <span class="na">no_drawer</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>All plugins (gems) are now optional.
+The gem-based version of the theme no longer uses any plugins by default,
+while the download version follow a “batteries-included” approach and enables some by default.</p>
+  </li>
+  <li>
+    <p>Links to the <code class="language-plaintext highlighter-rouge">/assets/</code> folder are no longer intercepted by the push state features,
+which means clickable images and download links should work fine now.</p>
+  </li>
+  <li>
+    <p>Reader views in Firefox and Safari have an easier time recognizing the main content.</p>
+  </li>
+  <li>
+    <p>[Internal] No more <code class="language-plaintext highlighter-rouge">&lt;style&gt;</code> tags in the <code class="language-plaintext highlighter-rouge">body</code>.</p>
+  </li>
+  <li>
+    <p>[Internal] Content that is generated via JS (error pages, loading, etc…) is now cloned from <code class="language-plaintext highlighter-rouge">template</code> tags,
+where it is easier to modify (but before you do, check out the new <code class="language-plaintext highlighter-rouge">_data/strings.yml</code> file).</p>
+  </li>
+  <li>
+    <p>[Internal] Changed how CSS code is organized.
+Previously there were two versions of each CSS file for each ‘topic’,
+one containing core styles to be inlined into the page, the other containing those fetched asynchronously via link tag.
+Now there is only one file per topic, with the parts to be inlined/linked marked with comments.
+A script has been added to “split” the CSS into the inline/link parts.
+Note that this does not affect your <code class="language-plaintext highlighter-rouge">my-*.scss</code> files.</p>
+  </li>
+  <li>
+    <p>[Internal] Many CSS classnames have changes, specifically those that would conflict with Bootstrap class names.</p>
+  </li>
+  <li>
+    <p>[Internal] Many files in <code class="language-plaintext highlighter-rouge">_includes</code> have been reorganized, specially <code class="language-plaintext highlighter-rouge">head.html</code> and <code class="language-plaintext highlighter-rouge">body.html</code> have been broken up into smaller parts.</p>
+  </li>
+  <li>
+    <p>[Internal] The <code class="language-plaintext highlighter-rouge">y-drawer</code> component (MIT) has been replaced with the <code class="language-plaintext highlighter-rouge">hy-drawer</code> component (GPL-3.0).</p>
+  </li>
+  <li>
+    <p>[Internal] The <code class="language-plaintext highlighter-rouge">y-push-state</code> component (MIT) has been replaced with the <code class="language-plaintext highlighter-rouge">hy-push-state</code> component (GPL-3.0).</p>
+  </li>
+</ul>
+
+<h3 id="added-10">Added</h3>
+<ul>
+  <li>
+    <p>The theme now has support for the <a href="https://github.com/jekyll/jekyll-seo-tag"><code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code></a> plugin.
+To use this gem, make sure you use the latest <code class="language-plaintext highlighter-rouge">Gemfile</code> and <code class="language-plaintext highlighter-rouge">Gemfile.lock</code> and run <code class="language-plaintext highlighter-rouge">bundle install</code>.
+In your config file, add <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code> to <code class="language-plaintext highlighter-rouge">plugins</code> (formerly called <code class="language-plaintext highlighter-rouge">gems</code>).</p>
+  </li>
+  <li>
+    <p>All texts that were previously hard-coded into the theme can now be configured via <code class="language-plaintext highlighter-rouge">_data/strings.yml</code>.
+This makes it possible to change certain phases without having to change source files,
+but it should also make it easier to use Hydejack with other languages.
+Time and date formats can also be configured, using Ruby’s
+<a href="http://ruby-doc.org/core-2.4.1/Time.html#method-i-strftime">format directives</a>.</p>
+  </li>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">lang</code> key now accepts values like <code class="language-plaintext highlighter-rouge">en-us</code> or <code class="language-plaintext highlighter-rouge">de_AT</code>.</p>
+  </li>
+  <li>Made the site “mobile web app capable”
+    <ul>
+      <li>Added <code class="language-plaintext highlighter-rouge">manifest.json</code> for “Add to Homescreen” support on Android</li>
+      <li>Added <code class="language-plaintext highlighter-rouge">theme-color</code> meta tag that matches the <code class="language-plaintext highlighter-rouge">accent_color</code> and changes dynamically</li>
+      <li>Added <code class="language-plaintext highlighter-rouge">apple-mobile-web-app-*</code> meta tags</li>
+      <li>Added <code class="language-plaintext highlighter-rouge">ieconfig.xml</code> for “Pin to start menu” support in Windows 10.</li>
+      <li>Old icons and new ones are now located in <code class="language-plaintext highlighter-rouge">assets/icons</code>.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Hydejack now marks up content as <em>structured data</em>, to the extent possible.
+The resume is provided as <a href="https://schema.org/Person">https://schema.org/Person</a>
+as well as <a href="http://microformats.org/wiki/hcard">hCard</a>,
+while projects are provided as <a href="https://schema.org/CreativeWork">https://schema.org/CreativeWork</a>.
+You can use the <a href="https://search.google.com/structured-data/testing-tool/">Structured Data Testing Tool</a> to see the results.</p>
+
+    <p>If you do not want to expose your data in machine-readable form, you can set the <code class="language-plaintext highlighter-rouge">no_structured_data</code> flag to <code class="language-plaintext highlighter-rouge">true</code> in your config file.</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">no_structured_data</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div>    </div>
+
+    <p>Note that this only applies to the resume and project layout, not the data generated by by <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code>
+(Facebook Open Graph and Twitter cards).</p>
+  </li>
+  <li>
+    <p>[PRO] Added “big projects”. You can make a project card span the entire content width (instead of half),
+by setting <code class="language-plaintext highlighter-rouge">big_project</code> to <code class="language-plaintext highlighter-rouge">true</code> in the project’s front matter.</p>
+  </li>
+  <li>
+    <p>[PRO] The welcome layout now has a <code class="language-plaintext highlighter-rouge">content_separator</code> option,
+which allows content to move below the “Selected/Latest Projects” and “Selected/Latest Posts” section.
+Usage:</p>
+
+    <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">welcome</span>
+<span class="na">content_separator</span><span class="pi">:</span> <span class="s">&lt;!--more--&gt;</span>
+<span class="nn">---</span>
+
+Content above
+
+<span class="c">&lt;!--more--&gt;</span>
+
+Content below
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>[PRO] The PRO version now has built-in support for <a href="https://www.tinyletter.com">Tinyletter</a>.
+To show a newsletter subscription box below each post, set <code class="language-plaintext highlighter-rouge">tinyletter: &lt;username&gt;</code> in your config file.
+If you want to use a different mailing provider, you can add your own form in <code class="language-plaintext highlighter-rouge">_includes/my-newsletter.html</code>.</p>
+  </li>
+  <li>
+    <p>[PRO] The PRO version now includes styles for input elements, using the same CSS class names as Bootstrap.
+Check out the <a href="https://getbootstrap.com/docs/4.0/components/forms/">Bootstrap docs</a> to learn more.</p>
+  </li>
+  <li>
+    <p>[PRO] Added links to random posts at the bottom of each post. This can be beneficial for search engine rankings and content discovery.
+You can remove them with the new <code class="language-plaintext highlighter-rouge">post_addons</code> option (see below).</p>
+  </li>
+  <li>
+    <p>[PRO] If a <code class="language-plaintext highlighter-rouge">endDate</code> is missing in your <code class="language-plaintext highlighter-rouge">resume.json</code>, it will render as “&lt;startDate&gt; – <em>present</em>”.
+You can change the wording in the new <code class="language-plaintext highlighter-rouge">strings.yml</code> file.</p>
+  </li>
+  <li>
+    <p>Added support for <a href="https://github.com/benbalter/jekyll-avatar"><code class="language-plaintext highlighter-rouge">jekyll-avatar</code></a>.
+If this plugin is enabled in your config file, it will show the avatar of your github account
+(<code class="language-plaintext highlighter-rouge">author.social.github</code>, <code class="language-plaintext highlighter-rouge">author.github.username</code> <code class="language-plaintext highlighter-rouge">author.github</code>).</p>
+  </li>
+  <li>
+    <p>Added support for <a href="https://github.com/jekyll/jekyll-gist"><code class="language-plaintext highlighter-rouge">jekyll-gist</code></a>.</p>
+  </li>
+  <li>
+    <p>You can now add links to external sites in the sidebar.
+Create a file like <code class="language-plaintext highlighter-rouge">something.md</code> and add a <code class="language-plaintext highlighter-rouge">title</code>, <code class="language-plaintext highlighter-rouge">menu</code>, <code class="language-plaintext highlighter-rouge">order</code> (optional) and a <code class="language-plaintext highlighter-rouge">redirect_to</code> field to the front matter, e.g.:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">External</span>
+<span class="na">menu</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">redirect_to</span><span class="pi">:</span> <span class="s">https://example.com/</span>
+<span class="nn">---</span>
+</code></pre></div>    </div>
+
+    <p>You may combine this with the <a href="https://github.com/jekyll/jekyll-redirect-from"><code class="language-plaintext highlighter-rouge">jekyll-redirect-from</code></a> plugin
+to generate a redirect page, but this is optional.</p>
+  </li>
+  <li>
+    <p>You can now configure the order of complementary content below posts and projects.
+By default, Hydejack will show the author first (if any), the newsletter box next (if any),
+and related posts/projects last.</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">post_addons</span><span class="pi">:</span>    <span class="pi">[</span><span class="nv">about</span><span class="pi">,</span> <span class="nv">newsletter</span><span class="pi">,</span> <span class="nv">related</span><span class="pi">,</span> <span class="nv">random</span><span class="pi">]</span>
+  <span class="na">project_addons</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">about</span><span class="pi">,</span> <span class="nv">newsletter</span><span class="pi">,</span> <span class="nv">other</span><span class="pi">]</span>
+</code></pre></div>    </div>
+
+    <p>To change the order in the output, change to order in the array.
+You can also drop entries from the output by removing them from the list.</p>
+  </li>
+  <li>
+    <p>Added an error page that is shown when client-side network errors occur. It contains a link to retry loading the page.
+Previously, the browser’s default error page would have been shown.</p>
+  </li>
+  <li>
+    <p>Added <code class="language-plaintext highlighter-rouge">hide_description</code> option to pages to prevent the content of <code class="language-plaintext highlighter-rouge">description</code> fields to show up in the output.
+This allows you to use the <code class="language-plaintext highlighter-rouge">description</code> field in the front matter to set descriptions for search engines and sharing on social media,
+without having to worry about the output.</p>
+
+    <p>You can activate this for all pages by adding to your config file:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">defaults</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span> <span class="s1">'</span><span class="s">'</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">hide_description</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Added a new option called <code class="language-plaintext highlighter-rouge">no_inline_css</code>.
+When <code class="language-plaintext highlighter-rouge">true</code>, Hydejack will generate a single CSS file to be fetched (synchronously) via <code class="language-plaintext highlighter-rouge">link</code> tag,
+instead of inlining half and including the rest via <code class="language-plaintext highlighter-rouge">link</code> tag.</p>
+
+    <p>This option <em>may</em> be useful when serving content over HTTP/2, but you should perform your own tests.
+For more on inlining CSS, <a href="https://varvy.com/pagespeed/inline-small-css.html">see this</a>.</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">no_inline_css</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Added <code class="language-plaintext highlighter-rouge">dns-prefetch</code> links to Google Fonts and Google Analytics domains to further boost page load speed.
+These are only included when using Google Fonts/Analytics.</p>
+  </li>
+  <li>
+    <p>You can now define an arbitrary CSS <code class="language-plaintext highlighter-rouge">background</code> for the sidebar instead of just images, e.g.:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">accent_image</span><span class="pi">:</span>
+  <span class="na">background</span><span class="pi">:</span> <span class="s1">'</span><span class="s">linear-gradient(to</span><span class="nv"> </span><span class="s">bottom,</span><span class="nv"> </span><span class="s">rgba(35,62,76,1)</span><span class="nv"> </span><span class="s">0%,rgba(60,146,158,1)</span><span class="nv"> </span><span class="s">50%,rgba(213,213,212,1)</span><span class="nv"> </span><span class="s">100%)</span><span class="nv"> </span><span class="s">#4fb1ba'</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Category and tag pages can now have arbitrary content (to be shown <em>above</em> the list).</p>
+  </li>
+  <li>Links can now be marked for FLIP animations by adding the <code class="language-plaintext highlighter-rouge">flip-title</code> class. Use this for links that have
+the exact same text as the title of the page they are linking, e.g. <code class="language-plaintext highlighter-rouge">[NOTICE](/NOTICE/){:.heading.flip-title}</code>.</li>
+</ul>
+
+<h3 id="performance">Performance</h3>
+<ul>
+  <li>Reduced building time during development.
+Roughly 50% of the time was spent rebuilding the inline CSS, which is now built once and included via <code class="language-plaintext highlighter-rouge">link</code> tag.
+Production builds still inlines CSS, so the building speed remains unchanged.
+For more on how to improve building speeds, <a href="/docs/writing/#a-word-on-building-speeds">see here</a>.</li>
+</ul>
+
+<h3 id="design-4">Design</h3>
+<ul>
+  <li>
+    <p>The default background image is no longer anti-selling the theme…</p>
+  </li>
+  <li>
+    <p>Code blocks, math blocks and tables now use as much space as there is available on the screen.
+Limiting the line length makes sense for paragraphs, as they are more difficult to read
+when they span the entire length on a large display,
+but it is less useful for content, like tables, long formulas or code.</p>
+
+    <p>If you do not like this change, you can set <code class="language-plaintext highlighter-rouge">no_break_layout</code> to <code class="language-plaintext highlighter-rouge">true</code> in your config file.</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">no_break_layout</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Margin below code blocks, math blocks and tables increased from <code class="language-plaintext highlighter-rouge">1rem</code> to <code class="language-plaintext highlighter-rouge">2rem</code>.</p>
+  </li>
+  <li>
+    <p>Gray text now has a higher contrast ratio:
+I don’t want anybody to <a href="https://lostinmobile.com/2016/10/25/im-suffering-from-design/">“suffer from design”</a>.</p>
+  </li>
+  <li>
+    <p>Reduced the number of responsive breakpoints.</p>
+  </li>
+  <li>
+    <p>Added a hover effect on project images.</p>
+  </li>
+  <li>
+    <p>On mobile, footnotes will be shown as [1] instead of superscript, making them easer to tap.</p>
+  </li>
+  <li>
+    <p>The sidebar now has a subtle shadow on mobile, to indicate that it can be drawn from the side.</p>
+  </li>
+  <li>
+    <p>The sidebar now has less margin on the sides.</p>
+  </li>
+  <li>
+    <p>The sidebar now fits 5 social media icons, up from 4.</p>
+  </li>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">description</code> in the sidebar now has a smaller font size when it is longer than 100 characters.
+This is to encourage writing a longer <code class="language-plaintext highlighter-rouge">description</code> for search engines (~160 characters).</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">h1</code>, <code class="language-plaintext highlighter-rouge">h2</code> and <code class="language-plaintext highlighter-rouge">h3</code> headings now have different <code class="language-plaintext highlighter-rouge">line-height</code>s to improve readability when they span multiple lines.</p>
+  </li>
+  <li>
+    <p>Marks on external links are now less opaque, but have a hover effect.</p>
+  </li>
+  <li>
+    <p>More responsible usage of <code class="language-plaintext highlighter-rouge">font_heading</code> in resume layout.</p>
+  </li>
+  <li>
+    <p>When hovering over a headline, a <code class="language-plaintext highlighter-rouge">#</code> link will appear, so that readers can link to individual headlines.</p>
+  </li>
+  <li>
+    <p>Changed the loading spinner to use a single icon instead of several animated <code class="language-plaintext highlighter-rouge">div</code>s.</p>
+  </li>
+</ul>
+
+<h3 id="fixes-9">Fixes</h3>
+<ul>
+  <li>When linking to an internal document that doesn’t match the regular content structure,
+the ‘hot replacement’ will no longer get stuck, and reload the page instead.</li>
+  <li>Fix jumping to <code class="language-plaintext highlighter-rouge">#</code> links after navigating to a new page.</li>
+  <li>Fix jumping to <code class="language-plaintext highlighter-rouge">#</code> links in MS Edge.</li>
+  <li>Fixed a bug on iOS were scrolling was blocked after closing the drawer.</li>
+  <li>Fixed a bug where the image used during the project FLIP animation would note be replaced with the higher resolution image
+after the animation in certain browsers.</li>
+  <li>The drawer is now less likely to be opened by accident.</li>
+</ul>
+
+<h2 id="v661">v6.6.1</h2>
+<p class="heading post-date">Aug 10 2017</p>
+
+<ul>
+  <li>Fixed sending incorrect paths to Google Analytics.
+In previous versions, Hydejack would always send the URL of the initial page for all subsequent page views.
+Thanks <a href="https://twitter.com/dannydwarren">@dannydwarren</a> for pointing this out.</li>
+  <li>Fixed <code class="language-plaintext highlighter-rouge">tagline</code> not showing up in the title.</li>
+</ul>
+
+<h2 id="v660">v6.6.0</h2>
+<p class="heading post-date">Aug 7 2017</p>
+
+<ul>
+  <li>Dependencies from external domains have been removed
+(with the exception of those that are explicitly defined and optional: Google Analytics, Google Fonts and Disqus).
+Instead, they are now located in the assets folder and managed via Bower.</li>
+  <li>KaTeX is no longer loaded on pages that do not contain math blocks.</li>
+  <li><code class="language-plaintext highlighter-rouge">preload</code> link tags no longer use <code class="language-plaintext highlighter-rouge">onload</code>. Instead callbacks are registered within a script tag.</li>
+  <li>
+    <p>Code in code blocks is no longer smaller sized than inline code.
+To undo this change, open (or create) <code class="language-plaintext highlighter-rouge">_sass/my-inline.scss</code> and add the following:</p>
+
+    <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">pre</span> <span class="nt">code</span> <span class="p">{</span> <span class="nl">font-size</span><span class="p">:</span> <span class="m">.75em</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Added <code class="language-plaintext highlighter-rouge">_includes/my-head.html</code>, to make it easier to add things to the <code class="language-plaintext highlighter-rouge">&lt;head/&gt;</code> without modifying the source.
+This is especially useful when using the gem-based version of the theme.</li>
+</ul>
+
+<h2 id="v650">v6.5.0</h2>
+<p class="heading post-date">Jul 27 2017</p>
+
+<p>This maintenance release includes various quality-of-life improvements when using the gem-based version of the theme.</p>
+
+<h3 id="added-11">Added</h3>
+<ul>
+  <li>
+    <p>Hydejack now uses additional Jekyll plugins by default, which make working with GitHub more convenient.
+They have been added to the <code class="language-plaintext highlighter-rouge">Gemfile</code> and <code class="language-plaintext highlighter-rouge">_config.yml</code>.
+Note that existing users need to update their <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">gems</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">jekyll-default-layout</span> <span class="c1"># new</span>
+  <span class="pi">-</span> <span class="s">jekyll-feed</span>
+  <span class="pi">-</span> <span class="s">jekyll-optional-front-matter</span> <span class="c1"># new</span>
+  <span class="pi">-</span> <span class="s">jekyll-paginate</span>
+  <span class="pi">-</span> <span class="s">jekyll-redirect-from</span>
+  <span class="pi">-</span> <span class="s">jekyll-relative-links</span> <span class="c1"># new</span>
+  <span class="pi">-</span> <span class="s">jekyll-sitemap</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Added <code class="language-plaintext highlighter-rouge">licenses</code> folder that includes the full license texts of licenses mentioned in <code class="language-plaintext highlighter-rouge">NOTICE.md</code>.</li>
+  <li>
+    <p>You can, once again, define the author in <code class="language-plaintext highlighter-rouge">_config.yml</code>.
+Using <code class="language-plaintext highlighter-rouge">_data/authors.yml</code> is still recommended (and takes precedence),
+but this option is more convenient when setting up a quick (project-) page using the gem-based theme.
+Also, a mini-version of <code class="language-plaintext highlighter-rouge">_data/social.yml</code> can be provided as part <code class="language-plaintext highlighter-rouge">_config.yml</code>, e.g.:</p>
+
+    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">github</span><span class="pi">:</span> <span class="s">https://github.com/hydecorp/hydejack</span>
+    <span class="na">npm</span><span class="pi">:</span> <span class="s">https://www.npmjs.com/package/hydejack</span>
+    <span class="na">download</span><span class="pi">:</span> <span class="s">https://github.com/hydecorp/hydejack/archive/v6.5.0.zip</span>
+
+<span class="na">data_social</span><span class="pi">:</span>
+  <span class="na">github</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">GitHub</span>
+    <span class="na">icon</span><span class="pi">:</span> <span class="s">icon-github</span>
+  <span class="na">npm</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">npm</span>
+    <span class="na">icon</span><span class="pi">:</span> <span class="s">icon-npm</span>
+  <span class="na">download</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">Download</span>
+    <span class="na">icon</span><span class="pi">:</span> <span class="s">icon-box-add</span>
+</code></pre></div>    </div>
+  </li>
+  <li>A download icon has been added to the default icon font and <code class="language-plaintext highlighter-rouge">_data/social.yml</code> has been updated.</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">_includes/my-scripts.html</code>, <code class="language-plaintext highlighter-rouge">_sass/my-inline.scss</code> and <code class="language-plaintext highlighter-rouge">_sass/my-style.scss</code> to make it easier to add custom scripts and styles without modifying the source. This is especially handy when using the gem-based version of the theme.</li>
+</ul>
+
+<h3 id="changed-7">Changed</h3>
+<ul>
+  <li>Loading web fonts now starts earlier and content download no longer blocks
+swapping out the fallback font for the new font.
+Previously, a page containing lots of images could have delayed displaying the web fonts significantly.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">home</code> layout no longer contains a message suggesting that you don’t use it.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">home</code> layout now shows up to 5 blog posts and up to 5 pages blow the regular content.</li>
+  <li>The version history has been moved from <code class="language-plaintext highlighter-rouge">docs/&lt;version&gt;/versions.md</code> to <code class="language-plaintext highlighter-rouge">CHANGELOG.md</code>.</li>
+  <li>The license notices have been moved from <code class="language-plaintext highlighter-rouge">docs/&lt;version&gt;/licenses.md</code> to <code class="language-plaintext highlighter-rouge">NOTICE.md</code>.</li>
+  <li>Updated gem and npm dependencies</li>
+</ul>
+
+<h3 id="design-5">Design</h3>
+<ul>
+  <li>The default font has been changed from “Noto Serif” to “Noto Sans”.
+If you have a <code class="language-plaintext highlighter-rouge">font</code> entry in <code class="language-plaintext highlighter-rouge">_config.yml</code>, this will have no effect.</li>
+  <li><code class="language-plaintext highlighter-rouge">nap.jpg</code> is no longer used as default background image in the gem-based theme.</li>
+  <li>The sidebar content width is now limited to the width of the sidebar (this only effects large screens).</li>
+  <li>Project cards and pagination buttons now have slightly rounded borders for a less “rigid” look.</li>
+</ul>
+
+<h4 id="how-to-restore-the-old-styles">How to restore the old styles</h4>
+<p>If you would like to use the old font, add the following to <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">font_heading</span><span class="pi">:</span> <span class="s2">"</span><span class="s">'Roboto</span><span class="nv"> </span><span class="s">Slab',</span><span class="nv"> </span><span class="s">Helvetica,</span><span class="nv"> </span><span class="s">Arial,</span><span class="nv"> </span><span class="s">sans-serif"</span>
+<span class="na">font</span><span class="pi">:</span>         <span class="s2">"</span><span class="s">'Noto</span><span class="nv"> </span><span class="s">Serif',</span><span class="nv"> </span><span class="s">Georgia,</span><span class="nv"> </span><span class="s">serif"</span>
+<span class="na">google_fonts</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Roboto+Slab:700|Noto+Serif:400,400i,700,700i"</span>
+</code></pre></div></div>
+
+<p>If you were relying on the default setting for the background image, add the following to <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span> <span class="s">/hydejack/assets/img/nap.jpg</span>
+</code></pre></div></div>
+
+<p>Note that you have to replace <code class="language-plaintext highlighter-rouge">/hydejack</code> with your <code class="language-plaintext highlighter-rouge">baseurl</code>.</p>
+
+<p>To restore the old sidebar, open (or create) <code class="language-plaintext highlighter-rouge">_sass/my-inline.scss</code> and add the following:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@media</span> <span class="n">screen</span> <span class="p">{</span> <span class="nc">.sidebar-sticky</span> <span class="p">{</span> <span class="nl">left</span><span class="p">:</span> <span class="m">2rem</span><span class="p">;</span> <span class="nl">max-width</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">}</span>
+</code></pre></div></div>
+
+<p>To remove the border radius, open (or create) <code class="language-plaintext highlighter-rouge">_sass/my-inline.scss</code> and add the following:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.card</span><span class="o">,</span> <span class="nc">.pagination-item</span> <span class="p">{</span> <span class="nl">border-radius</span><span class="p">:</span> <span class="m">0</span><span class="cp">!important</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="v641">v6.4.1</h2>
+<p class="heading post-date">Jun 23 2017</p>
+
+<ul>
+  <li>Fix invalid color hex</li>
+</ul>
+
+<h2 id="v640">v6.4.0</h2>
+<p class="heading post-date">Jun 21 2017</p>
+
+<p>In this release I’ve added a “Other Projects” section to the bottom of each project page,
+making it easier for users to navigate through your collection and discover other projects.
+Also, it’s now possible to display larger (data-) tables that were previously cut off (especially on mobile devices).</p>
+
+<p>For more on how to add tables, see the new section in <a href="/docs/writing/">docs/writing</a>.</p>
+
+<p>Smaller changes include a reduced usage of horizontal lines and a more “semantic” use of <code class="language-plaintext highlighter-rouge">hr</code> elements.
+Specifically, the semantics of the resume layout have been improved.</p>
+
+<h3 id="minor-1">Minor</h3>
+<ul>
+  <li>Added “Other Projects” section to the bottom of the project layout (similar to “Related Posts”)</li>
+  <li>Added CSS classes that make viewing larger (data-) tables possible</li>
+  <li>Added section on tables to <a href="/docs/writing/">docs/writing</a></li>
+  <li>Reduced use of <code class="language-plaintext highlighter-rouge">&lt;hr/&gt;</code> elements, using CSS borders instead.</li>
+  <li>Improved semantic HTML of resume</li>
+  <li>Follow favicon best practices and include example icons</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">no_google_fonts</code> option</li>
+</ul>
+
+<h3 id="design-6">Design</h3>
+<ul>
+  <li>Reduced number of horizontal lines, making many layouts feel less “cluttered” (esp. <code class="language-plaintext highlighter-rouge">blog</code> layout)</li>
+  <li>Made link hover styles consistent across the board</li>
+  <li>Visually separated <code class="language-plaintext highlighter-rouge">thead</code> and <code class="language-plaintext highlighter-rouge">tbody</code> and <code class="language-plaintext highlighter-rouge">tfoot</code> within tables.</li>
+  <li>Changed RSS and email icons</li>
+  <li>Removed top margin for consecutive headings, e.g. when using <code class="language-plaintext highlighter-rouge">h3</code> immediately after <code class="language-plaintext highlighter-rouge">h2</code>.</li>
+</ul>
+
+<h3 id="fixes-10">Fixes</h3>
+<ul>
+  <li>Fixed bug that caused inline math to be moved to the end of a paragraph when dynamically loading a page.</li>
+  <li>Fixed bug that caused layout to break in IE11.</li>
+  <li>Fixed bug that caused the project animation to “jump” when using long project titles.</li>
+  <li>No more empty attributes on <code class="language-plaintext highlighter-rouge">img</code> tags.</li>
+</ul>
+
+<h2 id="v630">v6.3.0</h2>
+<p class="heading post-date">Jun 6 2017</p>
+
+<p>This release makes including third party plugins easier.
+Until now, the push state approach to loading new pages has been interfering with embedded <code class="language-plaintext highlighter-rouge">script</code> tags.
+This version changes this by simulating the sequential loading of script tags on a fresh page load.</p>
+
+<p>This approach should work in a majority of cases, but can still cause problems with scripts that can’t be added more than once per page.
+If an issue can’t be resolved, there’s now the option to disable push state by setting <code class="language-plaintext highlighter-rouge">disable_push_state: true</code> in <code class="language-plaintext highlighter-rouge">config.yml</code>.</p>
+
+<h3 id="minor-2">Minor</h3>
+<ul>
+  <li>Support embedding <code class="language-plaintext highlighter-rouge">script</code> tags in markdown content</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">disable_push_state</code> option to <code class="language-plaintext highlighter-rouge">_config.yml</code></li>
+  <li>Add <code class="language-plaintext highlighter-rouge">disable_drawer</code> option to <code class="language-plaintext highlighter-rouge">_config.yml</code></li>
+  <li>Rename syntax highlighting file to <code class="language-plaintext highlighter-rouge">syntax.scss</code></li>
+  <li>Added <a href="/docs/scripts/">chapter on third party scripts</a> to documentation</li>
+</ul>
+
+<h3 id="design-7">Design</h3>
+<ul>
+  <li>Add subtle intro animation</li>
+  <li>Rename “Check out X for more” to “See X for more” on welcome* page</li>
+  <li>Replace “»” with “→” in “read more”-type of links</li>
+</ul>
+
+<h3 id="fixes-11">Fixes</h3>
+<ul>
+  <li>Fix default color in gem-based theme</li>
+</ul>
+
+<h2 id="v620">v6.2.0</h2>
+<p class="heading post-date">May 29 2017</p>
+
+<ul>
+  <li>Changed default color and image</li>
+  <li>Updated demo content</li>
+  <li>Finalized welcome and project page</li>
+  <li>Color is now fading correctly when no background image is provided</li>
+  <li>Added exemplary usage of excerpt separator</li>
+  <li>Removed social media links from <code class="language-plaintext highlighter-rouge">welcome</code> and <code class="language-plaintext highlighter-rouge">about</code> page</li>
+  <li>Updated dependencies</li>
+</ul>
+
+<h2 id="v611">v6.1.1</h2>
+<p class="heading post-date">May 23 2017</p>
+
+<ul>
+  <li>Add support for <code class="language-plaintext highlighter-rouge">lang</code> in front matter and <code class="language-plaintext highlighter-rouge">_config.yml</code>.</li>
+  <li>Add support for <code class="language-plaintext highlighter-rouge">keywords</code> in front matter and <code class="language-plaintext highlighter-rouge">_config.yml</code>.</li>
+</ul>
+
+<h2 id="v610">v6.1.0</h2>
+<p class="heading post-date">May 15 2017</p>
+
+<ul>
+  <li>Updated JS dependencies</li>
+  <li>Added version history and licenses to documentation</li>
+  <li>Fixed print layout</li>
+</ul>
+
+<h2 id="v600-javascripten">v6.0.0 (JavaScripten)</h2>
+<p class="heading post-date">May 3 2017</p>
+
+<p>Hydejack has always featured a JavaScript-heavy sidebar, but other than that, JS has been used sparingly. This changes with this release, which adds a ton of (optional) code that changes the feel of the theme dramatically.</p>
+
+<h3 id="major-1">Major</h3>
+<p>Pages are now loaded and swapped through JavaScript. This has a number of effects. First of all, it looks cool, but the animations aren’t just about aesthetics: They also help to hide the network time of fetching the next page, making the entire site feel faster. At the same time, the FOUC introduced in the last release will no longer occur (except on the initial page load).</p>
+
+<ul>
+  <li>Most JS is now unified in the <code class="language-plaintext highlighter-rouge">_js</code> directory and written in ES2016.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">blog-by-tag</code> layout has been renamed to <code class="language-plaintext highlighter-rouge">list</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">public</code> folder has been renamed to <code class="language-plaintext highlighter-rouge">assets</code> to make the theme compatible with Jekyll’s gem-based themes.</li>
+  <li>Tags are now supported via Jekyll Collections instead of <code class="language-plaintext highlighter-rouge">_data</code>.</li>
+  <li>The sidebar can now add links to all kinds of pages.</li>
+  <li>Categories are now supported.</li>
+  <li>Author information moved to <code class="language-plaintext highlighter-rouge">_data/authors.yml</code></li>
+  <li>Added support for multiple authors.</li>
+  <li>Using <code class="language-plaintext highlighter-rouge">jekyll-feed</code> plugin (supported on GitHub Pages) instead of custom solution.</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">about</code> layout.</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">not-found</code> layout.</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">redirect</code> layout</li>
+</ul>
+
+<p>See the <a href="/docs/upgrade/">the migration guide</a> for instructions on how to upgrade.</p>
+
+<h3 id="minor-3">Minor</h3>
+<ul>
+  <li>The “accent” font (heading font) is now used for all headings. This gives the theme a “bolder” look and was necessary for the animation: link =&gt; heading.</li>
+  <li>Changed default text font from “PT Serif” to “Noto Serif”.</li>
+  <li>Added <a href="/docs/writing/">CSS classes</a> for styling markdown content.</li>
+  <li>Links have a new style. They now always display an underline to make the choice of the link color less critical (darker colors were hard to distinguish from regular text).</li>
+  <li>Made social media icons larger and easier to tap.</li>
+  <li>Social media icons are now also part of the “about” sections of a post.</li>
+  <li>Added support for a copyright notice at the bottom. Can be set via the config variable <code class="language-plaintext highlighter-rouge">copyright</code>.</li>
+  <li>Changed responsive breakpoints and added support for very large displays.</li>
+  <li>The site is now printable.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">blog</code> layout now only shows the excerpt instead of the full post.</li>
+  <li>Links to external pages are now marked with a symbol.</li>
+  <li>Added margin above social media icons to prevent accidental tapping</li>
+  <li>Added gem files so that <code class="language-plaintext highlighter-rouge">bundle install</code> and <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> work</li>
+  <li>Disabled HTML minification when running via <code class="language-plaintext highlighter-rouge">jekyll serve</code></li>
+  <li>Added dingbat to signal end of post</li>
+</ul>
+
+<h3 id="fixes-12">Fixes</h3>
+<ul>
+  <li>Related posts is no longer blank for posts that do not belong to a category.</li>
+  <li>Footnotes now use the text version of “leftwards arrow with hook” instead of the emoji on iOS.</li>
+  <li>Text is no longer invisible while waiting for Google Fonts to load.</li>
+  <li>Always show scrollbar to prevent layout “jumps”</li>
+</ul>
+
+<h2 id="v530">v5.3.0</h2>
+<p class="heading post-date">Oct 1 2016</p>
+
+<p>a11y improvements</p>
+<ul>
+  <li>Use HTML5 semantics tags + roles</li>
+  <li>Don’t set <code class="language-plaintext highlighter-rouge">maximum-scale=1</code></li>
+  <li>Fix bug with <code class="language-plaintext highlighter-rouge">sr-only</code> class</li>
+</ul>
+
+<p>Math support improvements</p>
+<ul>
+  <li>LaTeX syntax errors will no longer prevent correct math blocks from being rendered</li>
+  <li>LaTeX syntax errors logged to console</li>
+</ul>
+
+<h2 id="v520">v5.2.0</h2>
+<p class="heading post-date">Sep 29 2016</p>
+
+<p>Prevent structural FOUC</p>
+
+<h2 id="v510">v5.1.0</h2>
+<p class="heading post-date">Sep 28 2016</p>
+
+<p>Cross-browser compatibility improvements:</p>
+<ul>
+  <li>Added features tests</li>
+  <li>Fixed layout in IE 10 and 11</li>
+  <li>Disabled stylesheets and JS in IE 9 and below.</li>
+</ul>
+
+<h2 id="v500-the-fast-one">v5.0.0 (The Fast One)</h2>
+<p class="heading post-date">Sep 16 2016</p>
+
+<p>This major release increases page load speed dramatically. The page now scores roughly 90/100 on <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fqwtel.com%2Fhydejack%2F">Google’s PageSpeed Insights</a> (up from ~50) and has a high score on similar tools.</p>
+
+<p>Most importantly, the critical rendering path is no longer blocked by loading styles or scripts, meaning the site becomes visible faster.</p>
+
+<p>Page load speed matters to Google, but is also <em>very</em> apparent to visitors with slow internet connections.</p>
+
+<p>However, as a side effect of these optimizations, the site now has a visible <a href="https://en.wikipedia.org/wiki/Flash_of_unstyled_content">FOUC</a>.
+Future versions might address this, but it is the currency in which loading speed is being payed for and can not be fully avoided.</p>
+
+<h3 id="major-2">Major</h3>
+<ul>
+  <li>HTML, CSS and JS served minified.</li>
+  <li>JS downloading starts only after the rest of the page is renderd.</li>
+  <li>Critical CSS (above-the-fold) is inlined into the document, the rest is fetched later.</li>
+</ul>
+
+<p>In order to minify the CSS and make it more modular it has been rewritten in SCSS.</p>
+
+<h3 id="minor-4">Minor</h3>
+<ul>
+  <li>Colored focus outline in page color</li>
+  <li>Tabindex for tab navigation</li>
+  <li>Social media icons easier tappable with finger</li>
+</ul>
+
+<h3 id="trivia">Trivia</h3>
+<p>Not strictly part of the release, but the images have been blurred to increase text readability and help with loading speed as well (burred images get compressed by JPG much better).</p>
+
+<h2 id="v401">v4.0.1</h2>
+<p class="heading post-date">Sep 11 2016</p>
+
+<p>Fix per-page color and image</p>
+
+<h2 id="v400-social-media-impocalypse">v4.0.0 (Social Media Impocalypse)</h2>
+<p class="heading post-date">Aug 30 2016</p>
+
+<h3 id="breaking-3">Breaking</h3>
+<ul>
+  <li>Structure of <code class="language-plaintext highlighter-rouge">_config.yml</code> has changed
+    <ul>
+      <li>Social media usernames are now located under <code class="language-plaintext highlighter-rouge">author: social: &lt;platform&gt;: &lt;username&gt;</code>.</li>
+      <li><code class="language-plaintext highlighter-rouge">disqus</code> is now a top-level entry (moved from <code class="language-plaintext highlighter-rouge">author</code>).</li>
+      <li>Now has <code class="language-plaintext highlighter-rouge">font</code>, <code class="language-plaintext highlighter-rouge">font_accent</code> and <code class="language-plaintext highlighter-rouge">google_fonts</code> fields that are mandatory.</li>
+    </ul>
+  </li>
+  <li>Now defaults to the <code class="language-plaintext highlighter-rouge">blog</code> layout, old style is available via <code class="language-plaintext highlighter-rouge">blog-by-tag</code> layout, see <code class="language-plaintext highlighter-rouge">archive.html</code>.</li>
+</ul>
+
+<h3 id="new-features">New features</h3>
+<ul>
+  <li>Added <em>a lot</em> of social media icons, configurable via <code class="language-plaintext highlighter-rouge">_config.yml</code>.</li>
+  <li>New <code class="language-plaintext highlighter-rouge">blog</code> layout. Classic, paginated.</li>
+  <li>Fonts are configurable via <code class="language-plaintext highlighter-rouge">_config.yml</code>.</li>
+</ul>
+
+<h3 id="design-8">Design</h3>
+<ul>
+  <li>Link underlines are now fixed-sized for all font sizes (no thicker lines for headlines, etc)</li>
+</ul>
+
+<h3 id="fixes-13">Fixes</h3>
+<ul>
+  <li>Correctly set the meta description field using either the <code class="language-plaintext highlighter-rouge">description</code> field or <code class="language-plaintext highlighter-rouge">post.excerpt</code> as a fallback (used to contain the unmodified markdown).</li>
+  <li>Fixed various URL bugs relating to <code class="language-plaintext highlighter-rouge">site.baseurl</code>.</li>
+</ul>
+
+<h3 id="internal">Internal</h3>
+<ul>
+  <li>Refactoring, preventing code duplications, heavier usage of <code class="language-plaintext highlighter-rouge">includes</code>.</li>
+</ul>
+
+<h2 id="v300-hydejack">v3.0.0 (Hydejack)</h2>
+<p class="heading post-date">May 7 2016</p>
+
+<p>Hydejack is a pretentious two-column <a href="http://jekyllrb.com">Jekyll</a> theme, stolen by <a href="https://twitter.com/qwtel"><code class="language-plaintext highlighter-rouge">@qwtel</code></a> from <a href="http://hyde.getpoole.com">Hyde</a>. You could say it was.. <a href="http://media3.giphy.com/media/makedRIckZBW8/giphy.gif">hydejacked</a>.</p>
+
+<h3 id="features">Features</h3>
+<p>Unlike Hyde, it’s very opinionated about how you are going to use it.</p>
+
+<p>Features include:</p>
+<ul>
+  <li>Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled.</li>
+  <li>Github Pages compatible tag support based on <a href="http://www.minddust.com/post/tags-and-categories-on-github-pages/">this post</a>.</li>
+  <li>Customizable link color and sidebar image, per-site, per-tag and per-post.</li>
+  <li>Optional author section at the bottom of each post.</li>
+  <li>Optional comment section powered by Disqus.</li>
+  <li>Layout for posts grouped by year</li>
+  <li>Wide array of social media icons on sidebar.</li>
+  <li>Math blocks via <a href="https://khan.github.io/KaTeX/">KaTeX</a>.</li>
+</ul>
+
+<h2 id="v200-hyde">v2.0.0 (Hyde)</h2>
+<p class="heading post-date">Jan 2 2014</p>
+
+<h2 id="v100-hyde">v1.0.0 (Hyde)</h2>
+<p class="heading post-date">Oct 15 2013</p>
+
+
+</article>
+
+
+  <hr class="dingbat related mb6" />
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2021. All rights reserved.
+</small></p>
+  
+  
+    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.6</span></small></p>
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+  <hy-drawer
+  id="_drawer"
+  class=""
+  side="left"
+  threshold="10"
+  noscroll
+  
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+      <a class="no-hover" href="/" tabindex="-1">
+        <img src="/assets/img/ggos3-bg.png" class="avatar" alt="GGos3" width="120" height="120" loading="lazy" />
+      </a>
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">GGos3</h2></a>
+    
+    
+      <p class="">
+        GGos3의 DevBlog
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+    
+    
+
+    
+      
+        <li>
+          <a
+            id="_navigation"
+            href="/school/"
+            class="sidebar-nav-item"
+            
+            >
+            School
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a
+            
+            href="/spring/"
+            class="sidebar-nav-item"
+            
+            >
+            Spring
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a
+            
+            href="/hexo/"
+            class="sidebar-nav-item"
+            
+            >
+            Hexo
+          </a>
+        </li>
+      
+    
+  
+</ul>
+
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/ggos3" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:janpll0421@gmail.com" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://instagram.com/ggos3_" title="Instagram" class="no-mark-external">
+      <span class="icon-instagram"></span>
+      <span class="sr-only">Instagram</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
+</script>
+  <script src="/assets/js/hydejack-9.1.6.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.1.6.js" nomodule defer></script>
+  
+
+  
+
+<!--<![endif]-->
+  <!-- <script>
+  document.querySelector('hy-push-state').setAttribute('prefetch', '');
+
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
+    el.addEventListener('click', function (e) {
+      if (el.pathname === window.location.pathname) {
+        e.preventDefault();
+        e.stopPropagation();
+        document.querySelector('hy-drawer').close();
+      }
+    });
+  });
+</script> -->
+
+<!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+</div>
+
+
+</body>
+</html>

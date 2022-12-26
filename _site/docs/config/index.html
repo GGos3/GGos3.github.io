@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="ko"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v9.1.6 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+
+  <meta name="robots" content="noindex">
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Config | GGos3</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Config" />
+<meta name="author" content="GGos3" />
+<meta property="og:locale" content="ko_KR, en_US" />
+<meta name="description" content="This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs." />
+<meta property="og:description" content="This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs." />
+<meta property="og:site_name" content="GGos3" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Config" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"GGos3"},"dateModified":"2022-12-24T01:15:15+09:00","description":"This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.","headline":"Config","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/ggos3-bg.png"},"name":"GGos3"},"url":"/docs/config/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+
+
+  <meta name="theme-color" content="rgb(25,55,71)">
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="GGos3">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="GGos3">
+
+<meta name="generator" content="Hydejack v9.1.6" />
+
+
+<link rel="alternate" href="/docs/config/" hreflang="ko-kr, en-us">
+
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="GGos3" />
+
+
+<link rel="shortcut icon"    href="/assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+
+
+
+
+
+<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script"),e=(n.src=e,t&&a(n,"load",t,{once:!0}),c.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+  w._search = {
+    DATA_URL: '/assets/sitedata.json?no-cache',
+    STORAGE_KEY: 'mini-search/',
+    INDEX_KEY: 'index--2022-12-26T20:26:55+09:00',
+  };
+  w._clapButton = true;
+}(window);</script>
+
+
+<script async src="/assets/bower_components/MathJax/es5/tex-mml-chtml.js" id="_MathJax"></script>
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.1.6.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.5);--accent-color-highlight: rgba(79, 177, 186, 0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(25,55,71)}
+</style>
+
+
+<!--<![endif]-->
+
+
+
+
+</head>
+
+<body class="no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-page"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+    <li><a href="/">home</a></li>
+    
+      <li>
+        
+          <span>/</span>
+          
+          
+          <a href="/docs/">docs</a>
+        
+      </li>
+    
+      <li>
+        
+          <span>/</span>
+          <span>config</span>
+        
+      </li>
+    
+  
+</ul></nav>
+  <article class="page mb6" role="article">
+  <header>
+    <h1 class="page-title">Config</h1>
+    
+
+
+
+  
+    <div class="hr pb0"></div>
+  
+
+
+  </header>
+
+  <p>Once Jekyll is running, you can start with basic configuration by adding various entries to <code class="language-plaintext highlighter-rouge">_config.yml</code>. 
+Besides the documentation here, you can also read the <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_config.yml">annotated config file</a>.</p>
+
+<p class="note">When making changes to <code class="language-plaintext highlighter-rouge">_config.yml</code>, it is necessary to restart the Jekyll process for changes to take effect.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#setting-url-and-baseurl" id="markdown-toc-setting-url-and-baseurl">Setting <code class="language-plaintext highlighter-rouge">url</code> and <code class="language-plaintext highlighter-rouge">baseurl</code></a>    <ol>
+      <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
+    </ol>
+  </li>
+  <li><a href="#changing-accent-colors-and-sidebar-images" id="markdown-toc-changing-accent-colors-and-sidebar-images">Changing accent colors and sidebar images</a>    <ol>
+      <li><a href="#theme-color" id="markdown-toc-theme-color">Theme color</a></li>
+    </ol>
+  </li>
+  <li><a href="#changing-fonts" id="markdown-toc-changing-fonts">Changing fonts</a>    <ol>
+      <li><a href="#removing-google-fonts" id="markdown-toc-removing-google-fonts">Removing Google Fonts</a></li>
+    </ol>
+  </li>
+  <li><a href="#choosing-a-blog-layout" id="markdown-toc-choosing-a-blog-layout">Choosing a blog layout</a>    <ol>
+      <li><a href="#using-the-blog-layout-in-a-subdirectory" id="markdown-toc-using-the-blog-layout-in-a-subdirectory">Using the <code class="language-plaintext highlighter-rouge">blog</code> layout in a subdirectory</a></li>
+    </ol>
+  </li>
+  <li><a href="#adding-an-author" id="markdown-toc-adding-an-author">Adding an author</a>    <ol>
+      <li><a href="#adding-an-authors-picture" id="markdown-toc-adding-an-authors-picture">Adding an author’s picture</a></li>
+      <li><a href="#adding-social-media-icons" id="markdown-toc-adding-social-media-icons">Adding social media icons</a></li>
+      <li><a href="#adding-an-email-rss-icon-or-download-icon" id="markdown-toc-adding-an-email-rss-icon-or-download-icon">Adding an email, RSS icon or download icon</a></li>
+    </ol>
+  </li>
+  <li><a href="#enabling-comments" id="markdown-toc-enabling-comments">Enabling comments</a></li>
+  <li><a href="#enabling-google-analytics" id="markdown-toc-enabling-google-analytics">Enabling Google Analytics</a>    <ol>
+      <li><a href="#using-a-custom-analytics-provider" id="markdown-toc-using-a-custom-analytics-provider">Using a custom analytics provider</a></li>
+    </ol>
+  </li>
+  <li><a href="#changing-built-in-strings" id="markdown-toc-changing-built-in-strings">Changing built-in strings</a></li>
+  <li><a href="#adding-legal-documents" id="markdown-toc-adding-legal-documents">Adding legal documents</a></li>
+  <li><a href="#enabling-math-blocks" id="markdown-toc-enabling-math-blocks">Enabling math blocks</a></li>
+  <li><a href="#adding-custom-favicons-and-app-icons" id="markdown-toc-adding-custom-favicons-and-app-icons">Adding custom Favicons and App Icons</a>    <ol>
+      <li><a href="#changing-the-favicon" id="markdown-toc-changing-the-favicon">Changing the Favicon</a></li>
+      <li><a href="#changing-the-app-icons" id="markdown-toc-changing-the-app-icons">Changing the App Icons</a></li>
+    </ol>
+  </li>
+  <li><a href="#adding-a-cookies-banner" id="markdown-toc-adding-a-cookies-banner">Adding a cookies banner*</a></li>
+  <li><a href="#enabling-newsletter-boxes" id="markdown-toc-enabling-newsletter-boxes">Enabling newsletter boxes*</a></li>
+  <li><a href="#enabling-dark-mode" id="markdown-toc-enabling-dark-mode">Enabling Dark Mode*</a></li>
+</ol>
+
+<h2 id="setting-url-and-baseurl">Setting <code class="language-plaintext highlighter-rouge">url</code> and <code class="language-plaintext highlighter-rouge">baseurl</code></h2>
+<p>The first order of business should be to set the correct <code class="language-plaintext highlighter-rouge">url</code> and <code class="language-plaintext highlighter-rouge">baseurl</code> values in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">url</code> is the domain of your site, including the protocol (<code class="language-plaintext highlighter-rouge">http</code> or <code class="language-plaintext highlighter-rouge">https</code>). For this site, it is</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">url</span><span class="pi">:</span> <span class="s">https://qwtel.com</span>
+</code></pre></div></div>
+
+<p class="note">You don’t need to provide this property when hosting on GitHub Pages or Netlify.</p>
+
+<p>If your entire Jekyll blog is hosted in a subdirectory of your page, provide the path in <code class="language-plaintext highlighter-rouge">baseurl</code> with a leading <code class="language-plaintext highlighter-rouge">/</code>, but no trailing <code class="language-plaintext highlighter-rouge">/</code>,
+e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">baseurl</span><span class="pi">:</span> <span class="s">/hydejack</span>
+</code></pre></div></div>
+
+<p>Otherwise, provide the empty string <code class="language-plaintext highlighter-rouge">''</code></p>
+
+<p class="note">You don’t need to provide this property when hosting on GitHub Pages or Netlify.</p>
+
+<h3 id="github-pages">GitHub Pages</h3>
+<p>When hosting on <a href="https://pages.github.com/">GitHub Pages</a> the <code class="language-plaintext highlighter-rouge">url</code> is <code class="language-plaintext highlighter-rouge">https://&lt;username&gt;.github.io</code>
+(unless you are using a custom domain).</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">baseurl</code> depends on the kind of page you are hosting.</p>
+
+<ul>
+  <li>When hosting a <em>user or organization page</em>, use the empty string <code class="language-plaintext highlighter-rouge">''</code>.</li>
+  <li>When hosting <em>project page</em>, use <code class="language-plaintext highlighter-rouge">/&lt;reponame&gt;</code>.</li>
+</ul>
+
+<p>For for information on the types of pages you can host on GitHub, see the
+<a href="https://help.github.com/articles/user-organization-and-project-pages/">GitHub Help article</a>.</p>
+
+<h2 id="changing-accent-colors-and-sidebar-images">Changing accent colors and sidebar images</h2>
+<p>Hydejack allows you to choose the background image of the sidebar, as well as the accent color
+(color of the links, selection and focus outline, etc…).</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">accent_image</span><span class="pi">:</span> <span class="s">/assets/img/sidebar-bg.jpg</span>
+<span class="na">accent_color</span><span class="pi">:</span> <span class="s">rgb(79,177,186)</span>
+</code></pre></div></div>
+
+<p class="note">I recommend using a blurred image in order for the text to remain readable.
+If you save a blurred image as JPG, it will also drastically reduce its file size.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">accent_image</code> property also accepts the special value <code class="language-plaintext highlighter-rouge">none</code> which will remove the default image.</p>
+
+<p>If your sidebar image contains bright colors, the white text can be difficult to read. In this case, consider setting
+<code class="language-plaintext highlighter-rouge">invert_sidebar: true</code> in the front matter to invert the text colors in the sidebar. 
+Use <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">front matter defaults</a> to enable this on all pages (see below).</p>
+
+<p>Note that these values can be overwritten on a per-page basis, i.e. you can create a unique look for each page.
+You can also apply a certain look to all posts in a category via <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">front matter defaults</a>, e.g.:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">defaults</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span>         <span class="s">hydejack/</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">accent_image</span><span class="pi">:</span> <span class="s">/assets/img/hydejack-bg.jpg</span>
+      <span class="na">accent_color</span><span class="pi">:</span> <span class="s">rgb(38,139,210)</span>
+</code></pre></div></div>
+
+<h3 id="theme-color">Theme color</h3>
+<p>Hydejack also supports the <code class="language-plaintext highlighter-rouge">theme_color</code> property. When set, it will change the background color of the sidebar, as well as set the <code class="language-plaintext highlighter-rouge">theme_color</code> property in the <a href="https://web.dev/add-manifest/#theme-color">Web App Manifest</a>. In some browsers, such as Chrome on Android, this will change the color of the browser’s UI components.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">theme_color</span><span class="pi">:</span>  <span class="s">rgb(25,55,71)</span>
+</code></pre></div></div>
+
+<p>Just like <code class="language-plaintext highlighter-rouge">accent_*</code> properties, the theme color can be overridden on a per-page basis by setting it in the front matter.</p>
+
+<h2 id="changing-fonts">Changing fonts</h2>
+<p>Hydejack lets you configure the font of regular text and headlines, and it has built-in support for Google Fonts.
+There are three keys in <code class="language-plaintext highlighter-rouge">_config.yml</code> associated with this: <code class="language-plaintext highlighter-rouge">font</code>, <code class="language-plaintext highlighter-rouge">font_heading</code> and <code class="language-plaintext highlighter-rouge">google_fonts</code>.
+The defaults are:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">font</span><span class="pi">:</span>         <span class="s">Noto Sans, Helvetica, Arial, sans-serif</span>
+<span class="na">font_heading</span><span class="pi">:</span> <span class="s">Roboto Slab, Helvetica, Arial, sans-serif</span>
+<span class="na">google_fonts</span><span class="pi">:</span> <span class="s">Roboto+Slab:700|Noto+Sans:400,400i,700,700i</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">font</code> and <code class="language-plaintext highlighter-rouge">font_heading</code> must be valid CSS <code class="language-plaintext highlighter-rouge">font-family</code> values. When using Google Fonts make sure to provide at least one fallback.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">google_fonts</code> key is the string necessary to fetch the fonts from Google.
+You can get it from the download page at <a href="https://fonts.google.com">Google Fonts</a> after you’ve selected one or more fonts:</p>
+
+<p><img src="/assets/img/docs/google-fonts.png" alt="Where to get the google_fonts string" width="600" height="398" loading="lazy" /></p>
+
+<h3 id="removing-google-fonts">Removing Google Fonts</h3>
+<p>If you prefer not to use Google Fonts and remove all associated code from the site,
+set the <code class="language-plaintext highlighter-rouge">google_fonts</code> key to <code class="language-plaintext highlighter-rouge">false</code>.</p>
+
+<p class="note">The <code class="language-plaintext highlighter-rouge">no_google_fonts</code> parameter has been removed in v9 and no longer has any effect.</p>
+
+<h2 id="choosing-a-blog-layout">Choosing a blog layout</h2>
+<p>Hydejack features three layouts for showing your blog posts.</p>
+
+<ul>
+  <li>The <a href="https://hydejack.com/posts/"><code class="language-plaintext highlighter-rouge">list</code> layout</a> only shows the title and groups the posts by year of publication.</li>
+  <li>The <a href="https://hydejack.com/blog/hydejack/"><code class="language-plaintext highlighter-rouge">grid</code> layout</a>* is exclusive to the PRO Version and will show a content card (with <code class="language-plaintext highlighter-rouge">image</code>) for each post.</li>
+  <li>The <a href="https://hydejack.com/blog/"><code class="language-plaintext highlighter-rouge">blog</code> layout</a> is a traditional paginated layout and shows the title and an excerpt of each post.</li>
+</ul>
+
+<p>In order to use the <code class="language-plaintext highlighter-rouge">list</code> or <code class="language-plaintext highlighter-rouge">grid</code> layout add the following front-matter to a new markdown file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">list</span> <span class="c1"># or `grid`</span>
+<span class="na">title</span><span class="pi">:</span>  <span class="s">Home</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>If you want to use the <code class="language-plaintext highlighter-rouge">blog</code> layout, you need to add <code class="language-plaintext highlighter-rouge">jekyll-paginate</code> to your <code class="language-plaintext highlighter-rouge">Gemfile</code> and to the <code class="language-plaintext highlighter-rouge">plugins</code> list in your config file:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"jekyll-paginate"</span>
+</code></pre></div></div>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">plugins</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">jekyll-paginate</span>
+</code></pre></div></div>
+
+<p>You also need to add the <code class="language-plaintext highlighter-rouge">paginate</code> and <code class="language-plaintext highlighter-rouge">paginate_path</code> keys to your config file, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">paginate</span><span class="pi">:</span>      <span class="m">10</span>
+<span class="na">paginate_path</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/:num/'</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">blog</code> layout needs to be applied to a file with the <code class="language-plaintext highlighter-rouge">.html</code> file extension
+and the <code class="language-plaintext highlighter-rouge">paginate_path</code> needs to match the path to the <code class="language-plaintext highlighter-rouge">index.html</code> file.
+To match the <code class="language-plaintext highlighter-rouge">paginate_path</code> above, put a <code class="language-plaintext highlighter-rouge">index.html</code> with the following front matter in the root directory:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `index.html`</span>
+<span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">blog</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Blog</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>For more information see <a href="https://jekyllrb.com/docs/pagination/">Pagination</a>.</p>
+
+<h3 id="using-the-blog-layout-in-a-subdirectory">Using the <code class="language-plaintext highlighter-rouge">blog</code> layout in a subdirectory</h3>
+<p>If you want to use the blog layout at a URL like <code class="language-plaintext highlighter-rouge">/my-blog/</code>, create the following folder structure:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── my-blog
+│   └── index.html
+└── _config.yml
+</code></pre></div></div>
+
+<p>You can use the same <code class="language-plaintext highlighter-rouge">index.html</code> as before and place it in the subdirectory.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `my-blog/index.html`</span>
+<span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">blog</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Blog</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>In your config file, make sure the <code class="language-plaintext highlighter-rouge">paginate_path</code> matches the name of the subdirectory:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">paginate</span><span class="pi">:</span>      <span class="m">10</span>
+<span class="na">paginate_path</span><span class="pi">:</span> <span class="s">/my-blog/:num/</span> <span class="c1">#!!</span>
+</code></pre></div></div>
+
+<p>To add an entry in the sidebar to your blog directory, see <a href="/docs/basics/#adding-an-entry-to-the-sidebar">Adding an entry to the sidebar</a>.</p>
+
+<h2 id="adding-an-author">Adding an author</h2>
+<p>At a bare minimum, you should add an <code class="language-plaintext highlighter-rouge">author</code> key with a <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">email</code> sub-key
+(used by the <a href="https://github.com/jekyll/jekyll-feed">feed plugin</a>) to to your config file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span>  <span class="s">Florian Klampfer</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">mail@qwtel.com</span>
+</code></pre></div></div>
+
+<p>If you would like the author to be displayed in the about section below a post or project*, add an <code class="language-plaintext highlighter-rouge">about</code> key and provide markdown content. I recommend using the YAML pipe <code class="language-plaintext highlighter-rouge">|</code> syntax, so you can include multiple paragraphs:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span>  <span class="s">Florian Klampfer</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">mail@qwtel.com</span>
+  <span class="na">about</span><span class="pi">:</span> <span class="pi">|</span>
+    <span class="s">Hi, I'm Florian or @qwtel...</span>
+
+    <span class="s">This is another paragraph.</span>
+</code></pre></div></div>
+
+<h3 id="adding-an-authors-picture">Adding an author’s picture</h3>
+<p>If you’d like for the author’s picture to appear in addition the about text (see above), you can either use the <a href="https://github.com/benbalter/jekyll-avatar"><code class="language-plaintext highlighter-rouge">jekyll-avatar</code></a> plugin or provide URLs to images manually.</p>
+
+<p>To use the plugin, add it to your <code class="language-plaintext highlighter-rouge">Gemfile</code> and the list of <code class="language-plaintext highlighter-rouge">plugins</code> in your config file:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"jekyll-avatar"</span>
+</code></pre></div></div>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">plugins</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">jekyll-avatar</span>
+</code></pre></div></div>
+
+<p>Run <code class="language-plaintext highlighter-rouge">bundle install</code> for the changes to take effect.</p>
+
+<p>Make sure you have provided a GitHub username in your config file (<code class="language-plaintext highlighter-rouge">github_username</code>),
+or to the author key (<code class="language-plaintext highlighter-rouge">author.social.github</code>, <code class="language-plaintext highlighter-rouge">author.github.username</code>, or <code class="language-plaintext highlighter-rouge">author.github</code>).
+See <a href="#adding-social-media-icons">Adding social media icons</a> for more.</p>
+
+<p>To set an image manually, you have to provide an URL to the author’s <code class="language-plaintext highlighter-rouge">picture</code> key:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">picture</span><span class="pi">:</span>  <span class="s">/assets/img/me.jpg</span>
+</code></pre></div></div>
+
+<p>If you’d like to provide multiple versions for screens with different pixel densities,
+you can provide <code class="language-plaintext highlighter-rouge">path</code> and <code class="language-plaintext highlighter-rouge">srcset</code> keys instead:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">picture</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span>   <span class="s">/assets/img/me.jpg</span>
+    <span class="na">srcset</span><span class="pi">:</span>
+      <span class="na">1x</span><span class="pi">:</span>   <span class="s">/assets/img/me.jpg</span>
+      <span class="na">2x</span><span class="pi">:</span>   <span class="s">/assets/img/me@2x.jpg</span>
+</code></pre></div></div>
+
+<p>The keys of the <code class="language-plaintext highlighter-rouge">srcset</code> hash will be used as image descriptors. For more information on <code class="language-plaintext highlighter-rouge">srcset</code>, see the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-srcset">documentation at MDN</a>, or <a href="https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/">this article from CSS-Tricks</a>.</p>
+
+<h3 id="adding-social-media-icons">Adding social media icons</h3>
+<p>Hydejack supports a variety of social media icons out of the box. These are defined on a per-author basis, so make sure you’ve followed the steps in <a href="#adding-an-author">Adding an author</a>.</p>
+
+<p class="note">If you are using the gem-based version of Hydejack, download <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/social.yml"><code class="language-plaintext highlighter-rouge">social.yml</code></a> and put it into <code class="language-plaintext highlighter-rouge">_data</code> in the root directory. This is necessary because gem-based themes do not support including <code class="language-plaintext highlighter-rouge">_data</code>.</p>
+
+<p>You can add a link to a social network by adding an entry to the <code class="language-plaintext highlighter-rouge">social</code> key in to an author.
+It consists of the name of the social network as key and your username within that network as value, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">twitter</span><span class="pi">:</span> <span class="s">qwtel</span>
+    <span class="na">github</span><span class="pi">:</span>  <span class="s">qwtel</span>
+</code></pre></div></div>
+
+<p>Check out <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/authors.yml"><code class="language-plaintext highlighter-rouge">authors.yml</code></a> to see which networks are available.
+You can also follow the steps <a href="/docs/advanced/">here</a> to add your own social media icons.</p>
+
+<p>You can change the order in which the icons appear by moving lines up or down, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">github</span><span class="pi">:</span>  <span class="s">qwtel</span> <span class="c1"># now github appears first</span>
+    <span class="na">twitter</span><span class="pi">:</span> <span class="s">qwtel</span>
+</code></pre></div></div>
+
+<p>To get an overview of which networks are available and how a typical username in that network looks like,
+see the included <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/authors.yml"><code class="language-plaintext highlighter-rouge">authors.yml</code></a>.</p>
+
+<p>Should providing a username not produce a correct link for some reason, you can provide a complete URL instead, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">youtube</span><span class="pi">:</span> <span class="s">https://www.youtube.com/channel/UCu0PYX_kVANdmgIZ4bw6_kA</span>
+</code></pre></div></div>
+
+<p class="note">You can add any platform, even if it’s not defined in <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/social.yml"><code class="language-plaintext highlighter-rouge">social.yml</code></a>, by providing a complete URL. However, a fallback icon <span class="icon-link"></span> will be used when no icon is available. Supplying your own icons is an <a href="/docs/advanced/">advanced topic</a>.</p>
+
+<h3 id="adding-an-email-rss-icon-or-download-icon">Adding an email, RSS icon or download icon</h3>
+<p>If you’d like to add an email <span class="icon-mail"></span>, RSS <span class="icon-rss2"></span>, or download <span class="icon-box-add"></span> icon to the list, add the <code class="language-plaintext highlighter-rouge">email</code>, <code class="language-plaintext highlighter-rouge">rss</code>, or <code class="language-plaintext highlighter-rouge">download</code> key, e.g.:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">email</span><span class="pi">:</span>    <span class="s">mail@qwtel.com</span>
+    <span class="na">rss</span><span class="pi">:</span>      <span class="s">/feed.xml</span> <span class="c1"># make sure you provide an absolute URL</span>
+    <span class="na">download</span><span class="pi">:</span> <span class="s">https://github.com/hydecorp/hydejack/archive/v9.1.6.zip</span>
+</code></pre></div></div>
+
+<h2 id="enabling-comments">Enabling comments</h2>
+<p>Hydejack supports comments via <a href="https://disqus.com/">Disqus</a>. Before you can add comments to a page you need to register and add your site to Disqus’ admin console. Once you have obtained your “Disqus shortname”, you include it in your config file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">disqus</span><span class="pi">:</span> <span class="s">&lt;disqus shortname&gt;</span>
+</code></pre></div></div>
+
+<p>Now comments can be enabled by adding <code class="language-plaintext highlighter-rouge">comments: true</code> to the front matter.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span>   <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span>    <span class="s">Hello World</span>
+<span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>You can enable comments for entire classes of pages by using <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">front matter defaults</a>.
+E.g. to enable comments on all posts, add to your config file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">defaults</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">posts</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h2 id="enabling-google-analytics">Enabling Google Analytics</h2>
+<p>Enabling Google Analytics is as simple as setting the <code class="language-plaintext highlighter-rouge">google_analytics</code> key.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">google_analytics</span><span class="pi">:</span> <span class="s">UA-XXXXXXXX-X</span>
+</code></pre></div></div>
+
+<p>To remove Google Analytics and all associated code from the site, set the <code class="language-plaintext highlighter-rouge">google_analytics</code> key to <code class="language-plaintext highlighter-rouge">false</code>.</p>
+
+<h3 id="using-a-custom-analytics-provider">Using a custom analytics provider</h3>
+<p>If you want to use a different analytics provider such as <a href="https://matomo.org/">Matomo</a>, you can add its code snippet to <code class="language-plaintext highlighter-rouge">_includes/my-body.html</code> (create if it doesn’t exist).
+The <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_includes/my-body.html">default file</a> contains an example.</p>
+
+<h2 id="changing-built-in-strings">Changing built-in strings</h2>
+<p>You can change the wording of built-in strings like “Related Posts” or “Read more” in <code class="language-plaintext highlighter-rouge">_data/strings.yml</code>.</p>
+
+<p>If you are using the gem-based version the file doesn’t exist, but you can get the default file <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/strings.yml">here</a>.</p>
+
+<p>You will frequently find markers like <code class="language-plaintext highlighter-rouge">&lt;!--post_title--&gt;</code>.
+You can place them freely within your string and they will be replaced with the content they refer to.</p>
+
+<p>You may also use this feature to translate the theme into different languages.
+In this case you should also set the <code class="language-plaintext highlighter-rouge">lang</code> key to your config file, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">lang</span><span class="pi">:</span> <span class="s">cc-ll</span>
+</code></pre></div></div>
+
+<p>where <code class="language-plaintext highlighter-rouge">cc</code> is the 2-letter country code and <code class="language-plaintext highlighter-rouge">ll</code> specifies a 2-letter location code, e.g.: <code class="language-plaintext highlighter-rouge">de-at</code>.</p>
+
+<p>You may also change the strings used for formatting dates and times (look out for the <code class="language-plaintext highlighter-rouge">date_formats</code> key), but be aware that the values you provide need to be valid Ruby <a href="http://ruby-doc.org/core-2.4.1/Time.html#method-i-strftime">format directives</a>.</p>
+
+<h2 id="adding-legal-documents">Adding legal documents</h2>
+<p>If you have pages for contact data, privacy policy, cookie policy, etc. you can add links to them in the footer by listing them under the <code class="language-plaintext highlighter-rouge">legal</code> key in your config file as follows:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">legal</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Impress</span>
+    <span class="na">url</span><span class="pi">:</span>  <span class="s">/impress/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Cookies Policy</span>
+    <span class="na">url</span><span class="pi">:</span>  <span class="s">/cookies-policy/</span>
+</code></pre></div></div>
+
+<p>When using Hydejack’s offline feature, the pages listed here will be downloaded and cached when loading the page for the first time.</p>
+
+<h2 id="enabling-math-blocks">Enabling math blocks</h2>
+
+<p>Hydejack supports <a href="https://kramdown.gettalong.org/syntax.html#math-blocks">math blocks</a> with either <a href="https://khan.github.io/KaTeX/">KaTeX</a> or <a href="https://www.mathjax.org/">MathJax</a>.</p>
+
+<p>The <em>MathJax implementation</em> comes with a client-side runtime and works on GitHub Pages. 
+It is the more heavy-weight of the two and doesn’t work without JavaScript enabled. 
+Due to the size of the complete MathJax package, it only works partially with offline support enabled.</p>
+
+<p>The <em>KaTeX implementation</em> pre-renders the KaTeX output during site building.
+It’s more lightweight because it does not ship a client-side runtime and therefore works without JavaScript.
+In my opinion, it is the more elegant solution, but it requires a JavaScript runtime on the machine that builds the site,
+i.e. it does not work on GitHub Pages.</p>
+
+<p>You can switch between the two implementations by changing the <code class="language-plaintext highlighter-rouge">kramdown.math_engine</code> key to either <code class="language-plaintext highlighter-rouge">katex</code> or <code class="language-plaintext highlighter-rouge">mathjax</code> in your config file.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">kramdown</span><span class="pi">:</span>
+  <span class="na">math_engine</span><span class="pi">:</span>         <span class="s">katex</span>
+  <span class="na">math_engine_opts</span><span class="pi">:</span>    <span class="pi">{}</span>
+</code></pre></div></div>
+
+<p>The KaTeX implementation also requires the <code class="language-plaintext highlighter-rouge">kramdown-math-katex</code> gem in your <code class="language-plaintext highlighter-rouge">Gemfile</code>. 
+If you intend to use MathJax instead, this step is not required.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"kramdown-math-katex"</span>
+</code></pre></div></div>
+
+<p>There are a couple of things to know about this gem:</p>
+<ul>
+  <li>It is not supported on GitHub Pages. 
+You have to build the site on your machine before uploading to GitHub,
+or use a more permissive cloud building tool such as Netlify.</li>
+  <li>You need some kind of JavaScript runtime on your machine.
+Usually installing <a href="https://nodejs.org/en/download/">NodeJS</a> will suffice. 
+Alternatively, adding <code class="language-plaintext highlighter-rouge">gem "duktape"</code> will also do.
+For more, see <a href="https://github.com/kramdown/math-katex#documentation">https://github.com/kramdown/math-katex#documentation</a></li>
+</ul>
+
+<p>Before you add math content, remember to run <code class="language-plaintext highlighter-rouge">bundle install</code> and restart Jekyll.</p>
+
+<h2 id="adding-custom-favicons-and-app-icons">Adding custom Favicons and App Icons</h2>
+<h3 id="changing-the-favicon">Changing the Favicon</h3>
+<p>By default, Hydejack will use the Favicon from <code class="language-plaintext highlighter-rouge">/assets/icons/favicon.ico</code> and Apple Touch Icon from <code class="language-plaintext highlighter-rouge">/assets/icons/icon-192x192.png</code>.
+You can either override these files, or override the path in the config file via <code class="language-plaintext highlighter-rouge">favicon</code> and <code class="language-plaintext highlighter-rouge">app_touch_icon</code> keys:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: "_config.yml"</span>
+<span class="na">favicon</span><span class="pi">:</span> <span class="s">/favicon.ico</span>
+<span class="na">apple_touch_icon</span><span class="pi">:</span> <span class="s">/assets/img/logo.png</span>
+</code></pre></div></div>
+
+<h3 id="changing-the-app-icons">Changing the App Icons</h3>
+<p>By default, Hydejack includes its own favicon, as well as app icons in 8 different resolutions.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Name</th>
+      <th style="text-align: right">Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-512x512.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">512x512</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-384x384.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">384x384</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-192x192.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">192x192</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-152x152.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">152x152</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-144x144.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">144x144</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-128x128.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">128x128</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-96x96.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">96x96</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-72x72.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">72x72</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To change the default icons you have to replce all of them. To make this manageable, I recommend using the following tools:</p>
+
+<p>First, use the <a href="https://maskable.app/editor">Maskable.app Editor</a> to confine your logo/picture to the “minimum safe area”. More on maskable app icons, see <a href="https://web.dev/maskable-icon">this article on web.dev</a>. 
+Make sure the base image is at least 512x512 pixels in size.</p>
+
+<p>Then use the <a href="https://app-manifest.firebaseapp.com/">Web App Manifest Generator</a> to automatically resize the icons. 
+Upload the icon downloaded from Maskable.app and then click “Generate .zip”. 
+In the zip, ignore the <code class="language-plaintext highlighter-rouge">manifest.json</code> and look for the <code class="language-plaintext highlighter-rouge">icons</code> folder. Copy it into the <code class="language-plaintext highlighter-rouge">assets</code> folder of your site.</p>
+
+<p>To change the favicon, place your own <code class="language-plaintext highlighter-rouge">favicon.ico</code> (32x32, PNG) into <code class="language-plaintext highlighter-rouge">assets/icons</code>.</p>
+
+<h2 id="adding-a-cookies-banner">Adding a cookies banner*</h2>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">cookies_banner</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Enabling this setting will show a notice at the top of the page to new visitors.
+You can change the wording of the notice in <code class="language-plaintext highlighter-rouge">_data/strings.yml</code>
+with the <code class="language-plaintext highlighter-rouge">cookies_banner.text</code> and <code class="language-plaintext highlighter-rouge">cookies_banner.okay</code> keys:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_data/strings.yml`</span>
+<span class="na">cookies_banner</span><span class="pi">:</span>
+  <span class="na">text</span><span class="pi">:</span> <span class="s">This site uses cookies. [Markdown allowed](/cookies-policy/)!</span>
+  <span class="na">okay</span><span class="pi">:</span> <span class="s">Okay</span>
+</code></pre></div></div>
+
+<h2 id="enabling-newsletter-boxes">Enabling newsletter boxes*</h2>
+<p>To enable showing newsletter subscription boxes below each post and project,
+provide your <a href="https://tinyletter.com/">Tinyletter</a> username to the <code class="language-plaintext highlighter-rouge">tinyletter</code> key in the config file.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">tinyletter</span><span class="pi">:</span>  <span class="s">&lt;tinyletter username&gt;</span>
+</code></pre></div></div>
+
+<p>To edit the content of the newsletter box, open <code class="language-plaintext highlighter-rouge">_data/strings.yml</code>, and change the entries under the <code class="language-plaintext highlighter-rouge">tinyletter</code> key.</p>
+
+<p>If want to use a different mailing provider you can build your own form, and insert it into <code class="language-plaintext highlighter-rouge">_includes/my-newsletter.html</code>. The file includes an example form for MailChimp, where you need to fill in <code class="language-plaintext highlighter-rouge">site.mailchimp.action</code> and <code class="language-plaintext highlighter-rouge">site.mailchimp.hidden_input</code> (you can get these from MailChimp).</p>
+
+<p>To build a completely new from, you can use <a href="https://getbootstrap.com/docs/4.0/components/forms/">the same CSS classes as Bootstrap</a>. Note that only form, grid and utility classes are available. Check out <a href="../forms-by-example.md" class="heading flip-title">Forms by Example</a> for more examples.</p>
+
+<h2 id="enabling-dark-mode">Enabling Dark Mode*</h2>
+<p>Buyers of the PRO version have access to a dark-themed version of Hydejack.</p>
+
+<p>Dark mode can be enabled in <code class="language-plaintext highlighter-rouge">config.yml</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key and has three settings and two adjustments:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">dark_mode</span><span class="pi">:</span>
+    <span class="na">dynamic</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="na">sunrise</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">sunset</span><span class="pi">:</span>  <span class="m">18</span>
+    <span class="na">icon</span><span class="pi">:</span>    <span class="no">true</span>
+    <span class="na">always</span><span class="pi">:</span>  <span class="no">false</span>
+</code></pre></div></div>
+
+<p>Setting <code class="language-plaintext highlighter-rouge">dynamic</code>, will enable dark mode based on the client’s local time (unlike location-based sunset calculations, this approach does not require a permission form the user). You can adjust <code class="language-plaintext highlighter-rouge">sunrise</code> and <code class="language-plaintext highlighter-rouge">sunset</code> to change when to show the light/dark theme.</p>
+
+<p>Setting <code class="language-plaintext highlighter-rouge">icon</code> will show a switch to alternate between the light and dark mode at the top of the page.</p>
+
+<p>Finally, setting <code class="language-plaintext highlighter-rouge">always</code> will cause dark mode to become the default theme at all times (combine with <code class="language-plaintext highlighter-rouge">dynamic: false</code>).</p>
+
+<p class="read-more">Continue with <a href="/docs/basics/" class="heading flip-title">Basics</a></p>
+
+
+</article>
+
+
+  <hr class="dingbat related mb6" />
+
+
+
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2021. All rights reserved.
+</small></p>
+  
+  
+    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.6</span></small></p>
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+  <hy-drawer
+  id="_drawer"
+  class=""
+  side="left"
+  threshold="10"
+  noscroll
+  
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+      <a class="no-hover" href="/" tabindex="-1">
+        <img src="/assets/img/ggos3-bg.png" class="avatar" alt="GGos3" width="120" height="120" loading="lazy" />
+      </a>
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">GGos3</h2></a>
+    
+    
+      <p class="">
+        GGos3의 DevBlog
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+    
+    
+
+    
+      
+        <li>
+          <a
+            id="_navigation"
+            href="/school/"
+            class="sidebar-nav-item"
+            
+            >
+            School
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a
+            
+            href="/spring/"
+            class="sidebar-nav-item"
+            
+            >
+            Spring
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a
+            
+            href="/hexo/"
+            class="sidebar-nav-item"
+            
+            >
+            Hexo
+          </a>
+        </li>
+      
+    
+  
+</ul>
+
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/ggos3" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:janpll0421@gmail.com" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://instagram.com/ggos3_" title="Instagram" class="no-mark-external">
+      <span class="icon-instagram"></span>
+      <span class="sr-only">Instagram</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
+</script>
+  <script src="/assets/js/hydejack-9.1.6.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.1.6.js" nomodule defer></script>
+  
+
+  
+
+<!--<![endif]-->
+  <!-- <script>
+  document.querySelector('hy-push-state').setAttribute('prefetch', '');
+
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
+    el.addEventListener('click', function (e) {
+      if (el.pathname === window.location.pathname) {
+        e.preventDefault();
+        e.stopPropagation();
+        document.querySelector('hy-drawer').close();
+      }
+    });
+  });
+</script> -->
+
+<!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+</div>
+
+
+</body>
+</html>
