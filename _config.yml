@@ -193,9 +193,9 @@ kramdown:
 # pages with `comments: true` in the front matter.
 # disqus:                <username>
 
-comments:
-  # 'disqus' / 'giscus' / 'utterances' are available
-  provider:            utterances
+# comments:
+#   # 'disqus' / 'giscus' / 'utterances' are available
+#   provider:            utterances
 
 utterances:
   repo:                "GGos3/blog-comment"
