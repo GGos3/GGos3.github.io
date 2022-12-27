@@ -6,5 +6,3 @@ description: >
   Check out the `blog` layout for comparison.
 grouped: true
 ---
-< script  src = " https://utteranc.es/client.js "
- repo = " GGos3/blog-comment " issue-term = " pathname " theme = " github-light " crossorigin = " anonymous " async > </ script >        

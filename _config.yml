@@ -145,6 +145,11 @@ defaults:
       layout:          plain
       sitemap:         false
 
+  - scope:
+      type: posts
+    values:
+      comments: true
+
   # # You can use the following to enable comments on all posts.
   # - scope:
   #     type:            posts
@@ -191,6 +196,12 @@ kramdown:
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
   provider:            utterances
+
+utterances:
+  repo:                "GGos3/blog-comment"
+  issue-term:          "pathname"
+  label:               "Comments"
+  theme:               "github-light"
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
