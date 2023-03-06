@@ -2,8 +2,8 @@
 layout: post
 title: [Spring] 프로젝트에 Lobok 적용하기
 date: 2023-3-6 17:14:44
-tags: ["Spring"]
-categories: "Spring"
+tags:
+categories: spring
 image: /assets/img/[Spring]-프로젝트에-Lobok-적용하기/thumbnail.png
 ---
 # [Spring] 프로젝트에 Lombok 적용하기
