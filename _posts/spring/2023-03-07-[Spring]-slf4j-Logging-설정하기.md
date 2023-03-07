@@ -1,18 +1,15 @@
 ---
 layout: post
-author: cotes
 title: "[Spring] slf4j Logging 설정하기"
 date: 2023-03-07 11:16:33
 tags:
 categories: spring
 noindex: false
 comment: true
-image: assets/img/[Spring]-slf4j-Logging-설정하기/thumbnail_(2).png
+image: /assets/img/[Spring]-slf4j-Logging-설정하기/thumbnail_(2).png
 ---
 
 # [Spring] slf4j Logging 설정하기
-
-
 Spring 프로젝트에서 간단한 로깅 설정을 해보도록 하겠다.
 
 ## 프로젝트 적용
