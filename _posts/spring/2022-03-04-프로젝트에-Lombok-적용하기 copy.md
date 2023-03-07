@@ -6,7 +6,7 @@ tags:
 categories: spring
 noindex: false
 comment: true
-image: /assets/img/[Spring]-slf4j-Logging-설정하기/thumbnail.png
+image: /assets/img/[Spring]-프로젝트에-Lombok-적용하기/thumbnail.png
 ---
 # [Spring] slf4j Logging 설정하기
 Spring 프로젝트에서 간단한 로깅 설정을 해보도록 하겠다.
