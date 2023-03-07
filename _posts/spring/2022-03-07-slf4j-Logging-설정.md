@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Spring] slf4j Logging 설정하기"
-date: 2023-03-07 11:16:33
+title: "[Spring] slf4j Logging 설정"
+date: 2023-03-07 11:26:33
 tags:
 categories: spring
 noindex: false
